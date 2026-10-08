@@ -9,7 +9,15 @@ ESCOPO=macape
 MANTER=2
 SHA=$(git rev-parse HEAD)
 
-listar() { vercel ls "$PROJETO" --scope "$ESCOPO" --format json --limit 100 2>/dev/null </dev/null; }
+listar() {
+  # a CLI às vezes devolve vazio; tenta de novo até vir um JSON válido
+  for _ in 1 2 3 4 5; do
+    saida=$(vercel ls "$PROJETO" --scope "$ESCOPO" --format json --limit 100 2>/dev/null </dev/null)
+    if echo "$saida" | python3 -c "import json,sys; json.load(sys.stdin)" 2>/dev/null; then echo "$saida"; return; fi
+    sleep 3
+  done
+  echo '{"deployments": []}'
+}
 
 for _ in $(seq 1 60); do
   ESTADO=$(listar | python3 -c "
