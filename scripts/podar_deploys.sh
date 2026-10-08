@@ -9,7 +9,7 @@ ESCOPO=macape
 MANTER=2
 SHA=$(git rev-parse HEAD)
 
-listar() { vercel ls "$PROJETO" --scope "$ESCOPO" --format json --limit 100 2>/dev/null; }
+listar() { vercel ls "$PROJETO" --scope "$ESCOPO" --format json --limit 100 2>/dev/null </dev/null; }
 
 for _ in $(seq 1 60); do
   ESTADO=$(listar | python3 -c "
