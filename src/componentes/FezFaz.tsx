@@ -1,0 +1,47 @@
+import dados from "../conteudo/fezfaz.json";
+import { useEntra } from "./useEntra";
+
+type Fato = { area: string; texto: string; fonte: string; url: string };
+
+function Lista({ itens }: { itens: Fato[] }) {
+  return (
+    <ul className="fatos">
+      {itens.map((f) => (
+        <li key={f.texto}>
+          <span className="area">{f.area}</span>
+          <span className="texto">{f.texto}</span>
+          <span className="fonte">
+            Fonte: <a href={f.url} target="_blank" rel="noreferrer">{f.fonte}</a>
+          </span>
+        </li>
+      ))}
+    </ul>
+  );
+}
+
+export default function FezFaz() {
+  const ref = useEntra<HTMLDivElement>();
+  return (
+    <section id="fez-faz" aria-labelledby="t-fezfaz">
+      <div className="miolo entra" ref={ref}>
+        <div className="cabeca-secao">
+          <h2 id="t-fezfaz">Quem fez, faz</h2>
+          <p>
+            Paes foi prefeito do Rio por dois períodos. Dá para olhar o que saiu do papel na cidade
+            e o que ele promete levar para o resto do estado.
+          </p>
+        </div>
+        <div className="fezfaz">
+          <div>
+            <h3><span className="rotulo">Já fez</span> pelo Rio</h3>
+            <Lista itens={dados.fez} />
+          </div>
+          <div>
+            <h3><span className="rotulo">Vai fazer</span> pelo estado</h3>
+            <Lista itens={dados.fara} />
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}

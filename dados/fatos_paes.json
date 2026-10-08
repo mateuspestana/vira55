@@ -1,0 +1,404 @@
+{
+ "fatos": [
+  {
+   "area": "transporte",
+   "afirmacao": "O BRT do Rio opera com cerca de 630 mil passageiros por dia, 150 km e 780 ônibus.",
+   "numero_ou_data": "630 mil pass./dia; 150 km; 780 ônibus",
+   "fonte_url": "https://diariodorio.com/politica/2026/09/25/eduardo-paes-promete-levar-brt-a-itaguai-e-seropedica-e-reativar-trem-de-passageiros-ate-itaguai.html",
+   "fonte_veiculo": "Diário do Rio (26/09/2026)",
+   "trecho_da_fonte_que_comprova": "The existing system transports approximately 630,000 daily passengers across 150 kilometers with 780 buses.",
+   "trecho_tipo": "paráfrase da ferramenta de leitura (conferir antes de citar entre aspas)",
+   "observacao": "Número citado em matéria sobre a campanha; vale confirmar em prefeitura.rio/SMTR antes de publicar."
+  },
+  {
+   "area": "transporte",
+   "afirmacao": "O BRT Transcarioca liga a Barra da Tijuca ao Galeão, com 39 km e passagem por 27 bairros; abriu em junho de 2014.",
+   "numero_ou_data": "39 km; 27 bairros; jun/2014",
+   "fonte_url": "https://www.riotimesonline.com/brt-transcarioca-opens-linking-barra-to-galeao-airport/",
+   "fonte_veiculo": "The Rio Times",
+   "trecho_da_fonte_que_comprova": "39 kilometers ... passes through 27 Rio neighborhoods",
+   "trecho_tipo": "paráfrase da ferramenta de leitura (conferir antes de citar entre aspas)",
+   "observacao": "Fontes divergem entre 1º e 4 de junho de 2014; usar só 'junho de 2014'."
+  },
+  {
+   "area": "transporte",
+   "afirmacao": "O VLT Carioca começou a operar em junho de 2016 e chegou a 100 milhões de passageiros em 19/12/2022.",
+   "numero_ou_data": "100 milhões; 19/12/2022",
+   "fonte_url": "https://anptrilhos.org.br/vlt-carioca-atinge-a-marca-de-100-milhoes-de-passageiros/",
+   "fonte_veiculo": "ANPTrilhos",
+   "trecho_da_fonte_que_comprova": "atingiu nesta segunda-feira (19/12) a marca de 100 milhões de passageiros",
+   "trecho_tipo": "literal (PT)"
+  },
+  {
+   "area": "transporte",
+   "afirmacao": "Pesquisa Datafolha registrou 88% de avaliação positiva do VLT Carioca.",
+   "numero_ou_data": "88%",
+   "fonte_url": "https://anptrilhos.org.br/vlt-carioca-atinge-a-marca-de-100-milhoes-de-passageiros/",
+   "fonte_veiculo": "ANPTrilhos",
+   "trecho_da_fonte_que_comprova": "88% positive rating was recorded in a Datafolha Institute survey",
+   "trecho_tipo": "paráfrase da ferramenta de leitura (conferir antes de citar entre aspas)",
+   "observacao": "Data da pesquisa não aparece no trecho lido."
+  },
+  {
+   "area": "transporte",
+   "afirmacao": "A Linha 4 do metrô (obra do governo estadual) foi inaugurada em 30/07/2016, com cinco estações ligando a Barra a Ipanema; o prefeito Paes participou da cerimônia.",
+   "numero_ou_data": "30/07/2016; 5 estações",
+   "fonte_url": "https://agenciabrasil.ebc.com.br/geral/noticia/2016-07/temer-inaugura-linha-4-do-metro-e-diz-que-rio-2016-promovera-unidade-do-pais",
+   "fonte_veiculo": "Agência Brasil",
+   "trecho_da_fonte_que_comprova": "Mayor Eduardo Paes joined Temer, Governor Luiz Fernando Pezão ... at the Jardim Oceânico station ceremony.",
+   "trecho_tipo": "paráfrase da ferramenta de leitura (conferir antes de citar entre aspas)",
+   "observacao": "CUIDADO: obra estadual. Não atribuir a Paes a autoria; dizer 'inaugurada na gestão Paes' ou omitir."
+  },
+  {
+   "area": "porto_maravilha",
+   "afirmacao": "O Elevado da Perimetral foi implodido em 24/11/2013, marco do início da revitalização da região portuária.",
+   "numero_ou_data": "24/11/2013",
+   "fonte_url": "https://prefeitura.rio/cidade/dez-anos-da-implosao-do-elevado-da-perimetral-o-inicio-da-revitalizacao-da-regiao-portuaria/",
+   "fonte_veiculo": "prefeitura.rio",
+   "trecho_da_fonte_que_comprova": "Dez anos da implosão do Elevado da Perimetral: o início da revitalização da Região Portuária (implosão em 24 de novembro de 2013)",
+   "trecho_tipo": "paráfrase da ferramenta de leitura (conferir antes de citar entre aspas)"
+  },
+  {
+   "area": "porto_maravilha",
+   "afirmacao": "O Porto Maravilha reurbanizou 70 km de ruas, refez 650 mil m² de calçadas e 700 km de redes de infraestrutura.",
+   "numero_ou_data": "70 km; 650 mil m²; 700 km",
+   "fonte_url": "https://prefeitura.rio/cidade/dez-anos-da-implosao-do-elevado-da-perimetral-o-inicio-da-revitalizacao-da-regiao-portuaria/",
+   "fonte_veiculo": "prefeitura.rio",
+   "trecho_da_fonte_que_comprova": "70 km of reurbanized streets and 650,000 square meters of rebuilt sidewalks, along with 700 km of reconstructed utility networks",
+   "trecho_tipo": "paráfrase da ferramenta de leitura (conferir antes de citar entre aspas)",
+   "observacao": "Números da própria prefeitura (fonte oficial, não auditada)."
+  },
+  {
+   "area": "porto_maravilha",
+   "afirmacao": "O Museu de Arte do Rio abriu em março de 2013 e o Museu do Amanhã em dezembro de 2015; a Orla Conde tem 3,5 km.",
+   "numero_ou_data": "mar/2013; dez/2015; 3,5 km",
+   "fonte_url": "https://prefeitura.rio/cidade/dez-anos-da-implosao-do-elevado-da-perimetral-o-inicio-da-revitalizacao-da-regiao-portuaria/",
+   "fonte_veiculo": "prefeitura.rio",
+   "trecho_da_fonte_que_comprova": "Museu do Amanhã opened in December 2015 ... MAR ... March 2013 ... Orla Conde ... 3.5 km",
+   "trecho_tipo": "paráfrase da ferramenta de leitura (conferir antes de citar entre aspas)"
+  },
+  {
+   "area": "porto_maravilha",
+   "afirmacao": "O investimento privado na região portuária passou de R$ 8,9 bilhões em dez anos e gerou mais de 30 mil empregos diretos e indiretos na construção.",
+   "numero_ou_data": "R$ 8,9 bi; 30 mil empregos",
+   "fonte_url": "https://prefeitura.rio/cidade/dez-anos-da-implosao-do-elevado-da-perimetral-o-inicio-da-revitalizacao-da-regiao-portuaria/",
+   "fonte_veiculo": "prefeitura.rio",
+   "trecho_da_fonte_que_comprova": "Private sector investment exceeded R$ 8.9 billion over the decade, creating over 30,000 direct and indirect construction jobs.",
+   "trecho_tipo": "paráfrase da ferramenta de leitura (conferir antes de citar entre aspas)",
+   "observacao": "Dado da prefeitura (2023)."
+  },
+  {
+   "area": "olimpiadas",
+   "afirmacao": "Durante os 17 dias da Rio 2016, a cidade recebeu 1,17 milhão de turistas, 410 mil estrangeiros, com 94% de ocupação hoteleira.",
+   "numero_ou_data": "1,17 mi turistas; 410 mil; 94%",
+   "fonte_url": "https://agenciabrasil.ebc.com.br/rio-2016/noticia/2016-08/em-17-dias-de-olimpiada-rio-recebeu-quase-12-milhao-de-turistas",
+   "fonte_veiculo": "Agência Brasil",
+   "trecho_da_fonte_que_comprova": "a cidade recebeu 1,170 milhão de turistas, sendo 410 mil estrangeiros",
+   "trecho_tipo": "literal (PT)"
+  },
+  {
+   "area": "olimpiadas",
+   "afirmacao": "O metrô transportou 13,9 milhões de passageiros durante os Jogos Rio 2016.",
+   "numero_ou_data": "13,9 milhões",
+   "fonte_url": "https://agenciabrasil.ebc.com.br/rio-2016/noticia/2016-08/em-17-dias-de-olimpiada-rio-recebeu-quase-12-milhao-de-turistas",
+   "fonte_veiculo": "Agência Brasil",
+   "trecho_da_fonte_que_comprova": "metro system ... transporting 13.9 million passengers across its three lines during the games",
+   "trecho_tipo": "paráfrase da ferramenta de leitura (conferir antes de citar entre aspas)"
+  },
+  {
+   "area": "olimpiadas",
+   "afirmacao": "Estudo da FGV Conhecimento estimou que a Olimpíada de 2016 gerou R$ 99 bilhões em valor bruto de produção e 465 mil empregos diretos e indiretos na região metropolitana.",
+   "numero_ou_data": "R$ 99 bi; 465 mil empregos; estudo de 23/07/2024",
+   "fonte_url": "https://www.conjur.com.br/2024-jul-23/rio-2016-gerou-r-99-bilhoes-para-economia-da-capital-fluminense/",
+   "fonte_veiculo": "Consultor Jurídico (Conjur)",
+   "trecho_da_fonte_que_comprova": "A Olimpíada de 2016 gerou R$ 99 bilhões para a economia da cidade",
+   "trecho_tipo": "paráfrase da ferramenta de leitura (conferir antes de citar entre aspas)",
+   "observacao": "Citar como 'estudo da FGV', não como número da campanha; é valor bruto de produção, não ganho líquido."
+  },
+  {
+   "area": "saude",
+   "afirmacao": "Entre 2014 e 2016, a prefeitura economizou cerca de R$ 120 milhões em internações por causas sensíveis à atenção primária; a taxa dessas internações caiu de 31,9% para 19,6%.",
+   "numero_ou_data": "R$ 120 mi; 31,9% -> 19,6%",
+   "fonte_url": "https://agenciabrasil.ebc.com.br/geral/noticia/2016-11/rio-economiza-r-120-milhoes-anos-com-ampliacao-de-clinicas-da-familia",
+   "fonte_veiculo": "Agência Brasil (11/2016)",
+   "trecho_da_fonte_que_comprova": "Somente entre 2014 e 2016, a prefeitura economizou cerca de R$ 120 milhões com internações por causas sensíveis à APS (secretário Daniel Soranz)",
+   "trecho_tipo": "paráfrase da ferramenta de leitura (conferir antes de citar entre aspas)",
+   "observacao": "Informação atribuída à Secretaria Municipal de Saúde."
+  },
+  {
+   "area": "saude",
+   "afirmacao": "A cobertura da Estratégia Saúde da Família no Rio chegou a 68,62% em dezembro de 2016.",
+   "numero_ou_data": "68,62% (dez/2016)",
+   "fonte_url": "https://www.aosfatos.org/noticias/eduardo-paes-infla-dados-legado-prefeitura-rio/",
+   "fonte_veiculo": "Aos Fatos",
+   "trecho_da_fonte_que_comprova": "reached '68,62%' in December 2016",
+   "trecho_tipo": "paráfrase da ferramenta de leitura (conferir antes de citar entre aspas)",
+   "observacao": "Usar 68,62% (dado conferido). NÃO usar 'de 3,5% para 70%': o Aos Fatos classifica como impreciso (início de 21,5% em jan/2009)."
+  },
+  {
+   "area": "saude",
+   "afirmacao": "A cobertura da Saúde da Família subiu de 39,6% (dez/2020) para 62,5% (out/2023), com 238 clínicas da família e 85% de resolutividade.",
+   "numero_ou_data": "39,6% -> 62,5%; 238 clínicas",
+   "fonte_url": "https://prefeitura.rio/saude/clinicas-da-familia-unidades-da-prefeitura-atuam-na-promocao-da-saude-na-prevencao-e-no-diagnostico-precoce-de-doencas/",
+   "fonte_veiculo": "prefeitura.rio (24/10/2023)",
+   "trecho_da_fonte_que_comprova": "expanding Family Health Strategy coverage from 39.6% in December 2020 to 62.5% by October 2023",
+   "trecho_tipo": "paráfrase da ferramenta de leitura (conferir antes de citar entre aspas)",
+   "observacao": "Número de clínicas pode variar entre matérias (238 vs 243 unidades de atenção primária)."
+  },
+  {
+   "area": "saude",
+   "afirmacao": "O programa Cegonha Carioca, criado em 2011, atende gestantes do pré-natal ao parto em 19 maternidades públicas, com visita prévia e transporte exclusivo.",
+   "numero_ou_data": "criado em 2011; 19 maternidades",
+   "fonte_url": "https://prefeitura.rio/saude/programa-cegonha-carioca-garante-visita-a-maternidade-e-servico-de-ambulancia-propria/",
+   "fonte_veiculo": "prefeitura.rio",
+   "trecho_da_fonte_que_comprova": "19 maternidades públicas fazem parte do projeto; Transporte Cegonha: ambulância exclusiva",
+   "trecho_tipo": "paráfrase da ferramenta de leitura (conferir antes de citar entre aspas)",
+   "observacao": "Total de gestantes atendidas varia por data da matéria; não usar sem checar."
+  },
+  {
+   "area": "educacao",
+   "afirmacao": "O Ideb dos anos iniciais da rede municipal subiu de 5,4 (2021) para 6,2 (2025), o maior da série histórica.",
+   "numero_ou_data": "5,4 -> 6,2",
+   "fonte_url": "https://educacao.prefeitura.rio/noticias/rio-alcanca-maior-ideb-da-historia-nos-anos-iniciais-e-esta-entre-as-capitais-que-mais-avancaram-no-pais/",
+   "fonte_veiculo": "Secretaria Municipal de Educação (prefeitura.rio)",
+   "trecho_da_fonte_que_comprova": "The municipal network expanded from 5.4 (2021) to 6.2 (2025)",
+   "trecho_tipo": "paráfrase da ferramenta de leitura (conferir antes de citar entre aspas)",
+   "observacao": "Anos finais: 5,0 -> 5,2. Rede: 586.022 alunos, 1.558 escolas."
+  },
+  {
+   "area": "educacao",
+   "afirmacao": "Em 2022 a Secretaria de Educação anunciou mais de 8 mil novas vagas em creches e a meta de 22 mil novas vagas até 2024.",
+   "numero_ou_data": "8 mil (2022); meta 22 mil até 2024",
+   "fonte_url": "https://prefeitura.rio/educacao/secretaria-de-educacao-ira-abrir-mais-de-oito-mil-vagas-em-creches-neste-ano/",
+   "fonte_veiculo": "prefeitura.rio",
+   "trecho_da_fonte_que_comprova": "mais de oito mil novas vagas esse ano; '22 mil novas vagas até 2024'",
+   "trecho_tipo": "literal (PT)",
+   "observacao": "É meta/anúncio, não resultado. Resultado final não confirmado por fonte lida (a Agência Brasil, 05/2024, noticiou multa judicial por fila de creches: não usar 'fila zerada')."
+  },
+  {
+   "area": "seguranca",
+   "afirmacao": "A prefeitura expandiu o CIVITAS, que terá 20 mil câmeras inteligentes até 2028 e 56 'Fronteiras Digitais' de controle de entrada e saída da cidade.",
+   "numero_ou_data": "20 mil câmeras até 2028; 56 portais",
+   "fonte_url": "https://prefeitura.rio/cidade/prefeitura-do-rio-expande-civitas-que-tera-20-mil-cameras-ate-2028/",
+   "fonte_veiculo": "prefeitura.rio",
+   "trecho_da_fonte_que_comprova": "20 mil câmeras inteligentes até 2028",
+   "trecho_tipo": "paráfrase da ferramenta de leitura (conferir antes de citar entre aspas)",
+   "observacao": "É meta anunciada."
+  },
+  {
+   "area": "seguranca",
+   "afirmacao": "Em julho de 2025 o CIVITAS registrava 6,1 milhões de leituras de placas por dia, 160 mil alertas em tempo real e mais de 2 mil investigações apoiadas.",
+   "numero_ou_data": "6,1 mi leituras/dia; 160 mil alertas; 2 mil investigações",
+   "fonte_url": "https://prefeitura.rio/cidade/prefeitura-do-rio-expande-civitas-que-tera-20-mil-cameras-ate-2028/",
+   "fonte_veiculo": "prefeitura.rio",
+   "trecho_da_fonte_que_comprova": "160,000 real-time alerts issued; 6.1 million daily license plate readings; over 2,000 investigations supported",
+   "trecho_tipo": "paráfrase da ferramenta de leitura (conferir antes de citar entre aspas)"
+  },
+  {
+   "area": "seguranca",
+   "afirmacao": "A prefeitura criou o CIVITAS em 2024 com mais de 900 radares de leitura de placas e 3.500 câmeras integradas, e financiou o Disque-Denúncia 24 horas.",
+   "numero_ou_data": "900 radares; 3.500 câmeras; jun/2024",
+   "fonte_url": "https://agenciabrasil.ebc.com.br/geral/noticia/2024-06/prefeitura-do-rio-cria-central-para-apoio-de-acoes-de-seguranca",
+   "fonte_veiculo": "Agência Brasil (06/2024)",
+   "trecho_da_fonte_que_comprova": "over 900 license plate recognition radars ... 3,500 existing municipal cameras ... Disque-Denúncia ... funded by city hall",
+   "trecho_tipo": "paráfrase da ferramenta de leitura (conferir antes de citar entre aspas)"
+  },
+  {
+   "area": "seguranca",
+   "afirmacao": "A Guarda Municipal formou em 08/03/2026 a primeira turma de uma tropa de elite armada, com 600 agentes e câmeras corporais obrigatórias.",
+   "numero_ou_data": "08/03/2026; 600 agentes",
+   "fonte_url": "https://www.tribunadosertao.com.br/rj-em-foco/2026/03/08/869078-forca-municipal-de-elite-inicia-operacoes-armada-e-com-cameras-corporais-no-rio",
+   "fonte_veiculo": "Tribuna do Sertão",
+   "trecho_da_fonte_que_comprova": "600 agentes começarão a atuar nas próximas semanas",
+   "trecho_tipo": "paráfrase da ferramenta de leitura (conferir antes de citar entre aspas)",
+   "observacao": "Veículo menor; confirmar em prefeitura.rio ou g1 antes de publicar."
+  },
+  {
+   "area": "economia_empregos",
+   "afirmacao": "A cidade abriu 21,8 mil empregos formais no 1º trimestre de 2024 (mais da metade do saldo do estado) e 280,1 mil desde 2021, segundo o Caged.",
+   "numero_ou_data": "21,8 mil (1º tri/2024); 280,1 mil desde 2021",
+   "fonte_url": "https://prefeitura.rio/trabalho-e-renda/municipio-criou-218-mil-novos-empregos-formais-no-primeiro-trimestre-de-2024/",
+   "fonte_veiculo": "prefeitura.rio (dados Novo Caged/MTE)",
+   "trecho_da_fonte_que_comprova": "Since 2021, Rio has added 280,100 formal jobs",
+   "trecho_tipo": "paráfrase da ferramenta de leitura (conferir antes de citar entre aspas)"
+  },
+  {
+   "area": "gestao_fiscal",
+   "afirmacao": "A nota de capacidade de pagamento (Capag) da prefeitura subiu de C para B em maio de 2022, após cinco anos na nota inferior.",
+   "numero_ou_data": "C -> B; 09/05/2022",
+   "fonte_url": "https://prefeitura.rio/fazenda/prefeitura-do-rio-aumenta-nota-de-capacidade-de-pagamento-junto-ao-tesouro-nacional/",
+   "fonte_veiculo": "prefeitura.rio",
+   "trecho_da_fonte_que_comprova": "improved from a 'C' classification to a 'B' rating on the CAPAG",
+   "trecho_tipo": "paráfrase da ferramenta de leitura (conferir antes de citar entre aspas)",
+   "observacao": "Nota B, não A. O caixa 'de R$ 12 mi (jan/2021) para R$ 9 bi (mar/2022)' é afirmação da prefeitura na mesma matéria; atribuir a ela."
+  },
+  {
+   "area": "propostas_2026",
+   "afirmacao": "Paes propôs iniciar até o fim do mandato as obras da Linha 3 do metrô ligando Rio, Niterói, São Gonçalo e Itaboraí, via PPP.",
+   "numero_ou_data": "Linha 3; anunciado 24/08/2026 (caminhada em São Gonçalo)",
+   "fonte_url": "https://www.jornaldaki.com.br/paes-promete-tirar-linha-3-do-metr%C3%B4-do-papel-estudo-de-viabilidade-j%C3%A1-est%C3%A1-pronto-pelo-bndes",
+   "fonte_veiculo": "Jornal Daki",
+   "trecho_da_fonte_que_comprova": "utilizar uma 'Parceria Público-Privada (PPP), reunindo investimentos públicos e privados'",
+   "trecho_tipo": "paráfrase da ferramenta de leitura (conferir antes de citar entre aspas)",
+   "observacao": "Estudo do BNDES prevê 12 estações Rio-Niterói-São Gonçalo (Alcântara); versão COPPE/UFRJ ~50 km e 29 estações. Veículo menor: complementar com O Tempo ou Diário do Rio."
+  },
+  {
+   "area": "propostas_2026",
+   "afirmacao": "O plano de governo prevê recriar a Secretaria de Estado de Segurança Pública, coordenando PM, Polícia Civil e administração penitenciária, e criar o Sistema Único de Segurança Fluminense.",
+   "numero_ou_data": "Plano de governo 2026",
+   "fonte_url": "https://diariodorio.com/politica/2026/10/03/eduardo-paes-encerra-campanha-em-padre-miguel-e-reafirma-propostas-para-o-governo-do-rio.html",
+   "fonte_veiculo": "Diário do Rio (03/10/2026)",
+   "trecho_da_fonte_que_comprova": "recreating the State Security Secretariat to coordinate military police, civil police, and prison administration",
+   "trecho_tipo": "paráfrase da ferramenta de leitura (conferir antes de citar entre aspas)"
+  },
+  {
+   "area": "propostas_2026",
+   "afirmacao": "Paes propõe oito Super Centros de Especialidades no estado, no modelo do Super Centro Carioca de Saúde.",
+   "numero_ou_data": "8 Super Centros",
+   "fonte_url": "https://diariodorio.com/politica/2026/10/03/eduardo-paes-encerra-campanha-em-padre-miguel-e-reafirma-propostas-para-o-governo-do-rio.html",
+   "fonte_veiculo": "Diário do Rio (03/10/2026)",
+   "trecho_da_fonte_que_comprova": "eight specialized health centers modeled on Rio's Super Centro Carioca de Saúde",
+   "trecho_tipo": "paráfrase da ferramenta de leitura (conferir antes de citar entre aspas)"
+  },
+  {
+   "area": "propostas_2026",
+   "afirmacao": "Paes propõe estender o BRT a Itaguaí e Seropédica e reativar o trem de passageiros entre Santa Cruz e Itaguaí.",
+   "numero_ou_data": "anunciado 25/09/2026",
+   "fonte_url": "https://diariodorio.com/politica/2026/09/25/eduardo-paes-promete-levar-brt-a-itaguai-e-seropedica-e-reativar-trem-de-passageiros-ate-itaguai.html",
+   "fonte_veiculo": "Diário do Rio",
+   "trecho_da_fonte_que_comprova": "go back to having passenger trains in Itaguaí",
+   "trecho_tipo": "paráfrase da ferramenta de leitura (conferir antes de citar entre aspas)"
+  },
+  {
+   "area": "propostas_2026",
+   "afirmacao": "Paes propõe concluir o Hospital da Mãe em São Gonçalo e levar o Cegonha Carioca a todo o estado.",
+   "numero_ou_data": "anunciado 24/09/2026",
+   "fonte_url": "https://eduardopaes55.com.br/",
+   "fonte_veiculo": "Site oficial da campanha",
+   "trecho_da_fonte_que_comprova": "Eduardo Paes vai concluir o Hospital da Mãe em São Gonçalo e implementar o programa Cegonha Carioca em todo o Estado",
+   "trecho_tipo": "literal (PT)"
+  },
+  {
+   "area": "propostas_2026",
+   "afirmacao": "Paes propõe criar mais duas unidades do Bope no estado.",
+   "numero_ou_data": "anunciado 22/09/2026",
+   "fonte_url": "https://eduardopaes55.com.br/",
+   "fonte_veiculo": "Site oficial da campanha",
+   "trecho_da_fonte_que_comprova": "Eduardo Paes anuncia a criação de mais duas unidades do Bope no estado do Rio",
+   "trecho_tipo": "literal (PT)"
+  },
+  {
+   "area": "propostas_2026",
+   "afirmacao": "Paes propõe expandir o ensino médio profissionalizante em tempo integral e reerguer a rede Faetec.",
+   "numero_ou_data": "Plano de governo 2026",
+   "fonte_url": "https://www.otempo.com.br/eleicoes/2026/candidatos/rio-de-janeiro/governador/eduardo-paes-55",
+   "fonte_veiculo": "O Tempo",
+   "trecho_da_fonte_que_comprova": "Expanding full-time vocational high school and revitalizing the Faetec network",
+   "trecho_tipo": "paráfrase da ferramenta de leitura (conferir antes de citar entre aspas)"
+  },
+  {
+   "area": "propostas_2026",
+   "afirmacao": "Paes propõe adotar critérios técnicos, sem indicação política, para comandantes de batalhão da PM e delegados.",
+   "numero_ou_data": "Plano de governo 2026",
+   "fonte_url": "https://www.otempo.com.br/eleicoes/2026/candidatos/rio-de-janeiro/governador/eduardo-paes-55",
+   "fonte_veiculo": "O Tempo",
+   "trecho_da_fonte_que_comprova": "technical criteria for police leadership appointments",
+   "trecho_tipo": "paráfrase da ferramenta de leitura (conferir antes de citar entre aspas)"
+  },
+  {
+   "area": "campanha",
+   "afirmacao": "Eduardo Paes (PSD) concorre ao governo do Rio com o número 55.",
+   "numero_ou_data": "número 55",
+   "fonte_url": "https://www.cnnbrasil.com.br/eleicoes/saiba-qual-e-o-numero-de-eduardo-paes-candidato-ao-governo-do-rj/",
+   "fonte_veiculo": "CNN Brasil",
+   "trecho_da_fonte_que_comprova": "Eduardo Paes runs under the number '55'; PSD; vice Jane Reis (MDB)",
+   "trecho_tipo": "paráfrase da ferramenta de leitura (conferir antes de citar entre aspas)"
+  },
+  {
+   "area": "campanha",
+   "afirmacao": "O PSD oficializou a candidatura de Paes em convenção em 20/07/2026; Benedita da Silva e Pedro Paulo (PSD) disputam o Senado na chapa.",
+   "numero_ou_data": "20/07/2026",
+   "fonte_url": "https://www.brasildefato.com.br/2026/07/20/psd-oficializa-eduardo-paes-como-candidato-ao-governo-do-rio-de-janeiro/",
+   "fonte_veiculo": "Brasil de Fato",
+   "trecho_da_fonte_que_comprova": "O ex-prefeito do Rio de Janeiro, Eduardo Paes, foi oficializado nesta segunda-feira (20), em convenção do PSD",
+   "trecho_tipo": "literal (PT)"
+  },
+  {
+   "area": "campanha",
+   "afirmacao": "A coligação 'Juntos para Mudar, Coragem para Reconstruir' reúne PDT, MDB, DC, PSB, PSD, federação PSDB/Cidadania, federação PT/PCdoB/PV e federação PRD/Solidariedade.",
+   "numero_ou_data": "coligação 2026",
+   "fonte_url": "https://eduardopaes55.com.br/",
+   "fonte_veiculo": "Site oficial da campanha (rodapé)",
+   "trecho_da_fonte_que_comprova": "JUNTOS PARA MUDAR CORAGEM PARA RECONSTRUIR: PDT / MDB / DC / PSB / PSD / FEDERAÇÃO PSDB CIDADANIA ... FE BRASIL(PT/PC do B/PV) ... RENOVAÇÃO SOLIDÁRIA(25-PRD/77-SOLIDARIEDADE)",
+   "trecho_tipo": "literal (PT)"
+  },
+  {
+   "area": "campanha",
+   "afirmacao": "O jingle da campanha estreou em 16/08/2026, primeiro dia permitido de campanha, repetindo o número 55 e o tema da reconstrução.",
+   "numero_ou_data": "16/08/2026",
+   "fonte_url": "https://diariodorio.com/eduardo-paes-lanca-jingle-de-campanha-com-aposta-no-55-e-na-reconstrucao-do-estado-do-rio/",
+   "fonte_veiculo": "Diário do Rio",
+   "trecho_da_fonte_que_comprova": "The jingle debuted on August 16, 2026",
+   "trecho_tipo": "paráfrase da ferramenta de leitura (conferir antes de citar entre aspas)"
+  }
+ ],
+ "campanha_2026": {
+  "candidato": "Eduardo Paes, PSD, número 55, governador do RJ; nascido em 14/11/1969 (O Tempo).",
+  "vice": {
+   "nome": "Jane Reis",
+   "partido": "MDB",
+   "anuncio": "19/02/2026, sede do MDB no Centro do Rio",
+   "quem_e": "Advogada; presidente do MDB Mulher em Duque de Caxias; irmã do ex-prefeito e ex-deputado Washington Reis; casada com o pastor Rafael Corato (Assembleia de Deus).",
+   "fontes": [
+    "https://temporealrj.com/jane-reis-advogada-evangelica-e-integrante-da-familia-de-politicos-mais-influente-de-caxias-sera-a-vice-de-eduardo-paes/",
+    "https://www.infomoney.com.br/politica/mdb-confirma-jane-reis-como-vice-na-chapa-de-eduardo-paes-ao-governo-do-rj/",
+    "https://www.brasildefato.com.br/2026/07/20/psd-oficializa-eduardo-paes-como-candidato-ao-governo-do-rio-de-janeiro/"
+   ],
+   "obs": "Não consegui ler InfoMoney/CNN. Evitar citar parentes políticos no site; só 'advogada, MDB'."
+  },
+  "slogans": {
+   "principal_site_oficial": "Preparado pra reconstruir nosso estado",
+   "coligacao": "Juntos para Mudar, Coragem para Reconstruir",
+   "jingle_tema": "reconstrução + número 55",
+   "outros_vistos_em_buscas_nao_verificados": [
+    "Eduardo Paes, meu governador",
+    "Mudança com segurança (Diário do Rio, 03/10)"
+   ]
+  },
+  "site_oficial": "https://eduardopaes55.com.br/ (eduardopaes.com.br redireciona para ele)",
+  "redes": {
+   "instagram": "https://www.instagram.com/eduardopaes/",
+   "facebook": "https://www.facebook.com/EduardoPaesRJ/",
+   "x": "https://x.com/eduardopaes",
+   "tiktok": "https://www.tiktok.com/@eduardopaes",
+   "youtube": "https://www.youtube.com/@EduardoPaesRio",
+   "whatsapp": "https://paes.rio/whatsapp/",
+   "linkedin": "listado no rodapé do site (URL não extraída)"
+  },
+  "identidade_visual": {
+   "cores_extraidas_do_css_do_site_oficial": {
+    "azul_acento": "#004282",
+    "amarelo_alternativo": "#fcaf17",
+    "texto_corpo": "#39434d",
+    "azul_escuro_mapa": "#102033",
+    "origem": "variáveis --j-accent-color e --j-alt-color no CSS de eduardopaes55.com.br; tema WordPress, não é manual de marca"
+   },
+   "fontes_site": "Kanit e Roboto (Google Fonts)",
+   "material_de_apoio_perfil55": {
+    "url": "https://perfil55.pages.dev/",
+    "descricao": "gerador de foto de perfil com selo '55' em fundos azul-marinho, azul-claro e verde; hexes no CSS: #0d1d44, #14295c, #22397a, #35aae1, #82bb25, #ffc20e",
+    "obs": "Página não oficial/verificada; usar só como inspiração (azul + verde + amarelo)."
+   },
+   "obs": "Não achei manual de identidade nem hex oficial dos materiais gráficos. Sugestão: azul #004282 + amarelo #fcaf17, com selo 55 em branco."
+  }
+ },
+ "alertas": [
+  "Aos Fatos (fact-check) contestou: '3,5% para 70%' de cobertura da atenção básica, '150 mil servidores' e o crédito do desvio do Rio Joana. Não usar essas frases.",
+  "Linha 4 do metrô é obra estadual; o BRT Transoeste/Transcarioca/Transolímpica e o VLT foram obras municipais com participação estadual/federal: não afirmar 'Paes construiu' sem ressalva.",
+  "Capag da prefeitura é B, não A.",
+  "Creches: só há meta (22 mil vagas até 2024) confirmada; houve multa judicial por fila em 2024 (Agência Brasil).",
+  "Resultados vindos de prefeitura.rio são dados oficiais da própria gestão, não auditoria independente.",
+  "Diário do Rio (03/10) cita Pedro Paulo como 'running mate': provável erro da leitura automática (ele é candidato ao Senado). Vice é Jane Reis."
+ ],
+ "gerado_em": "2026-10-08"
+}

@@ -1,0 +1,30 @@
+{
+  "name": "vira55",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Vira55: o caminho até o 55 para o governo do Rio.",
+  "author": "Matheus C. Pestana",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "dados": "python3 scripts/montar_rj.py",
+    "conferir": "python3 scripts/conferir_citacoes.py"
+  },
+  "dependencies": {
+    "@fontsource-variable/bricolage-grotesque": "^5.2.0",
+    "@fontsource-variable/figtree": "^5.2.0",
+    "@vercel/analytics": "^2.0.1",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8"
+  },
+  "devDependencies": {
+    "@types/node": "^24.13.3",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.7",
+    "@vitejs/plugin-react": "^6.1.1",
+    "typescript": "~6.0.2",
+    "vite": "^8.3.0"
+  }
+}

@@ -1,0 +1,108 @@
+{
+ "fez": [
+  {
+   "area": "Transporte",
+   "texto": "O BRT Transcarioca liga a Barra da Tijuca ao Galeão, com 39 km e passagem por 27 bairros; abriu em junho de 2014.",
+   "fonte": "The Rio Times",
+   "url": "https://www.riotimesonline.com/brt-transcarioca-opens-linking-barra-to-galeao-airport/"
+  },
+  {
+   "area": "Transporte",
+   "texto": "O VLT Carioca começou a operar em junho de 2016 e chegou a 100 milhões de passageiros em 19/12/2022.",
+   "fonte": "ANPTrilhos",
+   "url": "https://anptrilhos.org.br/vlt-carioca-atinge-a-marca-de-100-milhoes-de-passageiros/"
+  },
+  {
+   "area": "Porto Maravilha",
+   "texto": "O Porto Maravilha reurbanizou 70 km de ruas, refez 650 mil m² de calçadas e 700 km de redes de infraestrutura.",
+   "fonte": "prefeitura.rio",
+   "url": "https://prefeitura.rio/cidade/dez-anos-da-implosao-do-elevado-da-perimetral-o-inicio-da-revitalizacao-da-regiao-portuaria/"
+  },
+  {
+   "area": "Olimpíadas",
+   "texto": "Durante os 17 dias da Rio 2016, a cidade recebeu 1,17 milhão de turistas, 410 mil estrangeiros, com 94% de ocupação hoteleira.",
+   "fonte": "Agência Brasil",
+   "url": "https://agenciabrasil.ebc.com.br/rio-2016/noticia/2016-08/em-17-dias-de-olimpiada-rio-recebeu-quase-12-milhao-de-turistas"
+  },
+  {
+   "area": "Saúde",
+   "texto": "A cobertura da Saúde da Família subiu de 39,6% (dez/2020) para 62,5% (out/2023), com 238 clínicas da família e 85% de resolutividade.",
+   "fonte": "prefeitura.rio (24/10/2023)",
+   "url": "https://prefeitura.rio/saude/clinicas-da-familia-unidades-da-prefeitura-atuam-na-promocao-da-saude-na-prevencao-e-no-diagnostico-precoce-de-doencas/"
+  },
+  {
+   "area": "Saúde",
+   "texto": "O programa Cegonha Carioca, criado em 2011, atende gestantes do pré-natal ao parto em 19 maternidades públicas, com visita prévia e transporte exclusivo.",
+   "fonte": "prefeitura.rio",
+   "url": "https://prefeitura.rio/saude/programa-cegonha-carioca-garante-visita-a-maternidade-e-servico-de-ambulancia-propria/"
+  },
+  {
+   "area": "Educação",
+   "texto": "O Ideb dos anos iniciais da rede municipal subiu de 5,4 (2021) para 6,2 (2025), o maior da série histórica.",
+   "fonte": "Secretaria Municipal de Educação (prefeitura.rio)",
+   "url": "https://educacao.prefeitura.rio/noticias/rio-alcanca-maior-ideb-da-historia-nos-anos-iniciais-e-esta-entre-as-capitais-que-mais-avancaram-no-pais/"
+  },
+  {
+   "area": "Segurança",
+   "texto": "A prefeitura criou o CIVITAS em 2024 com mais de 900 radares de leitura de placas e 3.500 câmeras integradas, e financiou o Disque-Denúncia 24 horas.",
+   "fonte": "Agência Brasil (06/2024)",
+   "url": "https://agenciabrasil.ebc.com.br/geral/noticia/2024-06/prefeitura-do-rio-cria-central-para-apoio-de-acoes-de-seguranca"
+  },
+  {
+   "area": "Empregos",
+   "texto": "A cidade abriu 21,8 mil empregos formais no 1º trimestre de 2024 (mais da metade do saldo do estado) e 280,1 mil desde 2021, segundo o Caged.",
+   "fonte": "prefeitura.rio (dados Novo Caged/MTE)",
+   "url": "https://prefeitura.rio/trabalho-e-renda/municipio-criou-218-mil-novos-empregos-formais-no-primeiro-trimestre-de-2024/"
+  }
+ ],
+ "fara": [
+  {
+   "area": "Transporte",
+   "texto": "Iniciar as obras da Linha 3 do metrô, ligando Rio, Niterói, São Gonçalo e Itaboraí, por parceria público-privada.",
+   "fonte": "Jornal Daki",
+   "url": "https://www.jornaldaki.com.br/paes-promete-tirar-linha-3-do-metr%C3%B4-do-papel-estudo-de-viabilidade-j%C3%A1-est%C3%A1-pronto-pelo-bndes"
+  },
+  {
+   "area": "Transporte",
+   "texto": "Estender o BRT a Itaguaí e Seropédica e reativar o trem de passageiros entre Santa Cruz e Itaguaí.",
+   "fonte": "Diário do Rio",
+   "url": "https://diariodorio.com/politica/2026/09/25/eduardo-paes-promete-levar-brt-a-itaguai-e-seropedica-e-reativar-trem-de-passageiros-ate-itaguai.html"
+  },
+  {
+   "area": "Segurança",
+   "texto": "Recriar a Secretaria de Estado de Segurança Pública e criar o Sistema Único de Segurança Fluminense, para PM, Polícia Civil e sistema penitenciário trabalharem juntos.",
+   "fonte": "Diário do Rio (03/10/2026)",
+   "url": "https://diariodorio.com/politica/2026/10/03/eduardo-paes-encerra-campanha-em-padre-miguel-e-reafirma-propostas-para-o-governo-do-rio.html"
+  },
+  {
+   "area": "Segurança",
+   "texto": "Escolher comandantes de batalhão da PM e delegados por critérios técnicos, sem indicação política.",
+   "fonte": "O Tempo",
+   "url": "https://www.otempo.com.br/eleicoes/2026/candidatos/rio-de-janeiro/governador/eduardo-paes-55"
+  },
+  {
+   "area": "Segurança",
+   "texto": "Criar mais duas unidades do Bope no estado.",
+   "fonte": "Site oficial da campanha",
+   "url": "https://eduardopaes55.com.br/"
+  },
+  {
+   "area": "Saúde",
+   "texto": "Abrir oito Super Centros de Especialidades pelo estado, no modelo do Super Centro Carioca de Saúde.",
+   "fonte": "Diário do Rio (03/10/2026)",
+   "url": "https://diariodorio.com/politica/2026/10/03/eduardo-paes-encerra-campanha-em-padre-miguel-e-reafirma-propostas-para-o-governo-do-rio.html"
+  },
+  {
+   "area": "Saúde",
+   "texto": "Concluir o Hospital da Mãe, em São Gonçalo, e levar o Cegonha Carioca a todo o estado.",
+   "fonte": "Site oficial da campanha",
+   "url": "https://eduardopaes55.com.br/"
+  },
+  {
+   "area": "Educação",
+   "texto": "Ampliar o ensino médio profissionalizante em tempo integral e reerguer a rede Faetec.",
+   "fonte": "O Tempo",
+   "url": "https://www.otempo.com.br/eleicoes/2026/candidatos/rio-de-janeiro/governador/eduardo-paes-55"
+  }
+ ]
+}

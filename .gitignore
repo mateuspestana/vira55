@@ -1,0 +1,14 @@
+node_modules/
+dist/
+.DS_Store
+*.tsbuildinfo
+.vercel
+.env*
+.playwright-mcp/
+.hallmark/
+.cursor/
+.agents/
+skills-lock.json
+AGENTS.md
+CLAUDE.md
+dados/planos/*.pdf
