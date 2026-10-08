@@ -1,5 +1,6 @@
-dados/
+/dados/
 .playwright-mcp/
 node_modules/
 dist/
 .hallmark/
+.env*
