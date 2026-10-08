@@ -19,9 +19,10 @@ export default function Sobre() {
             <li><a href="https://www.tse.jus.br/comunicacao/noticias/2026/Outubro/douglas-ruas-pl-e-eduardo-paes-vao-para-o-2o-turno-no-rio-de-janeiro" target="_blank" rel="noreferrer">TSE: Douglas Ruas e Eduardo Paes vão para o 2º turno</a></li>
             <li><a href="https://divulgacandcontas.tse.jus.br/" target="_blank" rel="noreferrer">DivulgaCandContas (TSE): planos de governo</a></li>
             <li><a href="https://resultados.tse.jus.br/" target="_blank" rel="noreferrer">Resultados do TSE</a></li>
+            <li><a href="https://www.ondedapraconversar.com.br/" target="_blank" rel="noreferrer">Onde dá pra conversar: boletins de urna por seção e local de votação</a></li>
             <li><a href="https://comomeusvizinhosvotam.com.br" target="_blank" rel="noreferrer">comomeusvizinhosvotam.com.br</a></li>
           </ul>
-          <p style={{ marginTop: "var(--e6)" }}>Autoria: Matheus C. Pestana.</p>
+          <p style={{ marginTop: "var(--e6)" }}>A foto da urna é a registrada por Eduardo Paes no TSE. Autoria: Matheus C. Pestana.</p>
         </div>
       </div>
     </section>

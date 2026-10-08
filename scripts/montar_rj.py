@@ -9,7 +9,9 @@ import os
 from collections import defaultdict
 
 BASE = os.path.expanduser("~/Documents/Datasets/OndeDaPraConversar/public/dados")
-SAIDA = os.path.join(os.path.dirname(__file__), "..", "src", "dados", "municipios.json")
+RAIZ = os.path.join(os.path.dirname(__file__), "..")
+SAIDA = os.path.join(RAIZ, "src", "dados", "municipios.json")
+SAIDA_REGIOES = os.path.join(RAIZ, "public", "dados", "regioes.json")
 
 REGIOES = {
     "Capital": ["Rio de Janeiro"],
@@ -59,4 +61,24 @@ def main():
     print(len(saida), "municípios; sem região:", sem_regiao)
 
 
+def regioes():
+    """Regiões de votação (bairro/local) do RJ com boletim, para o mapa.
+    Linha: bairro, 1º local, lat, lon, eleitores, brancos+nulos, abstenção, lula, flávio, código do município."""
+    nomes = {m["c"]: m["n"] for m in json.load(open(f"{BASE}/onde/rj.json"))}
+    linhas, vistos = [], set()
+    for f in sorted(glob.glob(f"{BASE}/onde/rj-*.json")):
+        cod = os.path.basename(f)[3:-5]
+        for r in json.load(open(f)):
+            _id, bairro, local, nlocais, nsecoes, lat, lon, eleitores, urnas, apuradas, brancos, nulos, abst, lula, flavio, _d = r
+            if _id in vistos:
+                continue
+            vistos.add(_id)
+            linhas.append([bairro, local, round(lat, 5), round(lon, 5), eleitores, brancos + nulos, abst, lula, flavio, cod])
+    os.makedirs(os.path.dirname(SAIDA_REGIOES), exist_ok=True)
+    json.dump({"colunas": ["bairro", "local", "lat", "lon", "eleitores", "bn", "abst", "lula", "flavio", "cod"],
+               "municipios": nomes, "linhas": linhas}, open(SAIDA_REGIOES, "w"), ensure_ascii=False, separators=(",", ":"))
+    print(len(linhas), "regiões de votação")
+
+
 main()
+regioes()

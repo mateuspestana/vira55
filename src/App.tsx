@@ -5,6 +5,7 @@ import Urna from "./componentes/Urna";
 import FezFaz from "./componentes/FezFaz";
 import Duelo from "./componentes/Duelo";
 import Matriz from "./componentes/Matriz";
+import MapaRJ from "./componentes/MapaRJ";
 import PeloEstado from "./componentes/PeloEstado";
 import Sobre from "./componentes/Sobre";
 import Rodape from "./componentes/Rodape";
@@ -15,6 +16,7 @@ export default function App() {
       <Cabecalho />
       <main className="corpo">
         <Hero />
+        <MapaRJ />
         <Urna />
         <FezFaz />
         <div className="fio-onda" aria-hidden="true" />

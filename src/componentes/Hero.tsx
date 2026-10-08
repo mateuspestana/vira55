@@ -28,8 +28,8 @@ export default function Hero() {
               e o número do Eduardo Paes é 55.
             </p>
             <div className="cta-linha">
-              <a className="botao amarelo" href="#paes-ruas">Ver as propostas lado a lado</a>
-              <a className="botao contorno" href="#urna">Como votar 55</a>
+              <a className="botao amarelo" href="#mapa">Ver o mapa do estado</a>
+              <a className="botao contorno" href="#paes-ruas">Propostas lado a lado</a>
               <p className="contagem">
                 <b>{dias}</b> {dias === 1 ? "dia" : "dias"} para votar
               </p>

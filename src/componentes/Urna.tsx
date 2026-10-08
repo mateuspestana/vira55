@@ -21,8 +21,13 @@ export default function Urna() {
         <div className="urna-aparelho" role="img" aria-label="Urna eletrônica com os números 5 e 5 digitados e o nome Eduardo Paes na tela">
           <div className="urna-tela">
             <span className="cargo">Governador</span>
-            <div className="digitos"><span>5</span><span>5</span></div>
-            <div className="linha-nome">Eduardo Paes<span>Partido: PSD</span></div>
+            <div className="tela-corpo">
+              <div>
+                <div className="digitos"><span>5</span><span>5</span></div>
+                <div className="linha-nome">Eduardo Paes<span>Partido: PSD</span></div>
+              </div>
+              <img src="/paes.jpg" width="161" height="225" alt="Foto de urna de Eduardo Paes, registrada no TSE" />
+            </div>
           </div>
           <div className="urna-teclas">
             {["1", "2", "3", "4"].map((n) => <span className="tecla" key={n}>{n}</span>)}

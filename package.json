@@ -15,7 +15,9 @@
   "dependencies": {
     "@fontsource-variable/bricolage-grotesque": "^5.2.0",
     "@fontsource-variable/figtree": "^5.2.0",
+    "@types/leaflet": "^1.9.22",
     "@vercel/analytics": "^2.0.1",
+    "leaflet": "^1.9.4",
     "react": "^19.2.8",
     "react-dom": "^19.2.8"
   },

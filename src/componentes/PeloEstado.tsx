@@ -37,7 +37,7 @@ export default function PeloEstado() {
     <section className="estado" id="pelo-estado" aria-labelledby="t-estado">
       <div className="miolo entra" ref={ref}>
         <div className="cabeca-secao">
-          <h2 id="t-estado">O Rio inteiro cabe nessa conversa</h2>
+          <h2 id="t-estado">Município a município</h2>
           <p>
             Do Rio a Itaperuna, de Angra a Campos. Em cada município há fluminense que não foi votar
             e gente que ainda não decidiu. O 55 também é para eles.
