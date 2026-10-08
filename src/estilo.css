@@ -294,10 +294,10 @@ button { font: inherit; color: inherit; cursor: pointer; }
 .mapa-grade { display: grid; grid-template-columns: minmax(0, 1fr) 340px; gap: var(--e4); align-items: start; }
 .mapa-intro h2 { font-size: var(--t-xl); font-weight: 800; color: var(--azul-fundo); }
 .mapa-intro p { margin-top: var(--e2); font-size: var(--t-sm); color: var(--tinta-2); }
-.mapa-moldura { position: relative; border-radius: var(--raio); overflow: hidden; border: 3px solid var(--azul-fundo); height: clamp(520px, 80vh, 780px); background: var(--azul-claro); }
+.mapa-moldura { position: relative; border-radius: var(--raio); overflow: hidden; border: 3px solid var(--azul-fundo); height: clamp(440px, 64vh, 620px); background: var(--azul-claro); }
 .mapa-caixa { position: absolute; inset: 0; }
 .mapa-aviso { position: absolute; inset: 0; display: grid; place-items: center; background: oklch(0.96 0.03 250 / 0.85); font-weight: 700; color: var(--azul-fundo); z-index: 500; text-align: center; padding: var(--e6); }
-.mapa-painel { display: grid; gap: var(--e3); align-content: start; min-width: 0; max-height: clamp(520px, 80vh, 780px); overflow-y: auto; }
+.mapa-painel { display: grid; gap: var(--e3); align-content: start; min-width: 0; max-height: clamp(440px, 64vh, 620px); overflow-y: auto; }
 .mapa-bloco { background: #fff; border: 1px solid var(--linha); border-radius: var(--raio); padding: var(--e4); display: grid; gap: var(--e2); }
 .mapa-rotulo { font-size: var(--t-xs); text-transform: uppercase; letter-spacing: 0.08em; font-weight: 800; color: var(--azul-vivo); }
 .mapa-bloco input[type="search"] { width: 100%; border: 2px solid var(--linha); border-radius: 999px; padding: 0.6rem 1rem; font: inherit; background: var(--areia); color: var(--tinta); min-width: 0; }
@@ -327,8 +327,10 @@ button { font: inherit; color: inherit; cursor: pointer; }
 
 @media (max-width: 900px) {
   .mapa-grade { grid-template-columns: minmax(0, 1fr); }
-  .mapa-moldura { height: 62vh; min-height: 420px; }
-  .mapa-painel { max-height: none; overflow: visible; }
+  .mapa-moldura { height: 350px; order: 0; }
+  .mapa-painel { display: contents; }
+  .mapa-intro { order: -1; }
+  .mapa-bloco { order: 1; }
 }
 .urna-tela .tela-corpo { display: grid; grid-template-columns: minmax(0, 1fr) 72px; gap: var(--e2); align-items: start; }
 .urna-tela .tela-corpo img { width: 72px; height: auto; border: 2px solid #1a1a1a; background: #ddd; }

@@ -14,10 +14,11 @@ const ATRIBUICAO =
   '&copy; colaboradores do <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>, ' +
   'estilo <a href="https://www.hotosm.org/">Humanitarian OSM Team</a>, ' +
   'servido por <a href="https://openstreetmap.fr/">OSM France</a>';
-const ESTADO: L.LatLngBoundsExpression = [[-23.4, -44.9], [-20.75, -40.95]];
+const ESTADO: L.LatLngBoundsExpression = [[-23.37, -44.89], [-20.76, -40.98]];
 const AZUL = "#004282";
 const AMARELO = "#fcaf17";
 
+const limitesDados = (d: Dados) => L.latLngBounds(d.regioes.map((r) => [r.lat, r.lon] as [number, number]));
 const nf = new Intl.NumberFormat("pt-BR");
 const semAcento = (t: string) => t.normalize("NFD").replace(/\p{Diacritic}/gu, "").toLowerCase();
 const valorDe = (r: Regiao, m: Metrica) => (m === "abst" ? r.abst : m === "bn" ? r.bn : r.abst + r.bn);
@@ -61,9 +62,9 @@ export default function MapaRJ() {
   // Cria o mapa uma vez.
   useEffect(() => {
     if (!caixa.current) return;
-    const m = L.map(caixa.current, { preferCanvas: true, zoomControl: true, attributionControl: true });
+    const m = L.map(caixa.current, { preferCanvas: true, zoomSnap: 0.25, zoomControl: true, attributionControl: true });
     m.fitBounds(ESTADO);
-    const quadro = requestAnimationFrame(() => { m.invalidateSize(); m.fitBounds(ESTADO, { animate: false }); });
+    const quadro = requestAnimationFrame(() => { m.invalidateSize(); m.fitBounds(ESTADO, { animate: false, padding: [4, 4] }); });
     L.tileLayer(TILES, { subdomains: "abc", maxZoom: 19, attribution: ATRIBUICAO }).addTo(m);
     m.attributionControl.setPrefix(false);
     camada.current = L.layerGroup().addTo(m);
@@ -81,17 +82,18 @@ export default function MapaRJ() {
     if (!enquadrado.current) {
       enquadrado.current = true;
       mapa.current?.invalidateSize();
-      mapa.current?.fitBounds(ESTADO, { animate: false });
+      mapa.current?.fitBounds(limitesDados(dados), { animate: false, padding: [4, 4] });
     }
+    const k = window.innerWidth < 600 ? 0.55 : 1;
     const ordem = dados.regioes.map((_, i) => i).sort((a, b) => valorDe(dados.regioes[b], metrica) - valorDe(dados.regioes[a], metrica));
     for (const i of ordem) {
       const r = dados.regioes[i];
       const v = valorDe(r, metrica);
       const escolhida = i === sel;
       const c = L.circleMarker([r.lat, r.lon], {
-        radius: 3.5 + Math.sqrt(v / Math.max(maximo, 1)) * 15,
+        radius: (3.5 + Math.sqrt(v / Math.max(maximo, 1)) * 15) * k,
         color: escolhida ? AZUL : "#ffffff",
-        weight: escolhida ? 3 : 1.2,
+        weight: escolhida ? 3 : 0.8,
         fillColor: escolhida ? AMARELO : AZUL,
         fillOpacity: escolhida ? 1 : 0.62,
       });
@@ -123,6 +125,28 @@ export default function MapaRJ() {
     setSel(i);
     mapa.current?.flyTo([r.lat, r.lon], Math.max(mapa.current.getZoom(), 14), { duration: matchMedia("(prefers-reduced-motion: reduce)").matches ? 0 : 0.8 });
   };
+
+  // Abre o mapa na cidade de quem visita (pelo IP, via /api/onde). Para testar: ?cidade=Niterói
+  useEffect(() => {
+    if (!dados) return;
+    let vivo = true;
+    const forcada = new URLSearchParams(location.search).get("cidade");
+    const pedir: Promise<{ cidade?: string; uf?: string; lat?: number; lon?: number } | null> = forcada
+      ? Promise.resolve({ cidade: forcada, uf: "RJ" })
+      : fetch("/api/onde")
+          .then((r) => (r.headers.get("content-type")?.includes("json") ? r.json() : null))
+          .then((j) => j?.local ?? null)
+          .catch(() => null);
+    pedir.then((local) => {
+      if (!vivo || !local || local.uf !== "RJ") return;
+      const alvo = semAcento(local.cidade ?? "");
+      const achado = Object.entries(dados.municipios).find(([, n]) => semAcento(n) === alvo);
+      if (achado) irParaMunicipio(achado[0]);
+      else if (local.lat !== undefined && local.lon !== undefined) mapa.current?.setView([local.lat, local.lon], 11, { animate: false });
+    });
+    return () => { vivo = false; };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [dados]);
 
   const irParaMunicipio = (cod: string) => {
     if (!dados) return;
@@ -166,7 +190,7 @@ export default function MapaRJ() {
                 ))}
               </ul>
             )}
-            <button className="link-mapa" onClick={() => { mapa.current?.fitBounds(ESTADO); setSel(null); }}>Ver o estado inteiro</button>
+            <button className="link-mapa" onClick={() => { if (dados) mapa.current?.fitBounds(limitesDados(dados), { padding: [4, 4] }); setSel(null); }}>Ver o estado inteiro</button>
           </div>
 
           <div className="mapa-bloco">

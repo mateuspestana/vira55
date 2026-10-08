@@ -27,7 +27,7 @@ export default function FezFaz() {
         <div className="cabeca-secao">
           <h2 id="t-fezfaz">Quem fez, faz</h2>
           <p>
-            Paes foi prefeito do Rio em quatro mandatos, de 2009 a 2012, de 2013 a 2016 e de 2021 a 2024. Dá para olhar o que saiu do papel na cidade
+            Paes foi prefeito do Rio em quatro gestões: de 2009 a 2012, de 2013 a 2016, de 2021 a 2024 e o que começou em janeiro de 2025, até se licenciar para disputar o governo. Dá para olhar o que saiu do papel na cidade
             e o que ele promete levar para o resto do estado.
           </p>
         </div>
