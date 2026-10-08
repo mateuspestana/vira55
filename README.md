@@ -14,3 +14,5 @@ npm run build
 ```
 
 Autoria: Matheus C. Pestana.
+
+Deploys: a Vercel guarda só os 2 mais recentes (o atual e o anterior). Depois de cada push, rode `npm run podar`.

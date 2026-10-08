@@ -1,15 +1,20 @@
-"""Agrega, por município do RJ, o 1º turno de Presidente 2026 (boletins de urna).
+"""Resultado do 1º turno de 2026 para GOVERNADOR do RJ (Paes 55 × Ruas 22) por município e por
+região de votação (bairro), a partir dos boletins de urna.
 
-Lê o que já foi montado no projeto OndeDaPraConversar (somente leitura) e gera
-src/dados/municipios.json. Autor: Matheus C. Pestana.
+Entradas (somente leitura):
+  dados/bruto/secoes_2026.csv   votos por seção (estudo13, Omarchy), colunas gov_55, gov_22...
+  OndeDaPraConversar/public/dados/{onde,secoes,celulas}  municípios, aptos e regiões com suas seções
+Saídas: src/dados/municipios.json e public/dados/regioes.json. Autor: Matheus C. Pestana.
 """
+import csv
 import glob
 import json
 import os
 from collections import defaultdict
 
-BASE = os.path.expanduser("~/Documents/Datasets/OndeDaPraConversar/public/dados")
 RAIZ = os.path.join(os.path.dirname(__file__), "..")
+BASE = os.path.expanduser("~/Documents/Datasets/OndeDaPraConversar/public/dados")
+SECOES = os.path.join(RAIZ, "dados", "bruto", "secoes_2026.csv")
 SAIDA = os.path.join(RAIZ, "src", "dados", "municipios.json")
 SAIDA_REGIOES = os.path.join(RAIZ, "public", "dados", "regioes.json")
 
@@ -22,63 +27,85 @@ REGIOES = {
     "Noroeste Fluminense": ["Aperibé", "Bom Jesus do Itabapoana", "Cambuci", "Italva", "Itaocara", "Itaperuna", "Laje do Muriaé", "Miracema", "Natividade", "Porciúncula", "Santo Antônio de Pádua", "São José de Ubá", "Varre-sai"],
     "Serrana": ["Bom Jardim", "Cantagalo", "Carmo", "Cordeiro", "Duas Barras", "Macuco", "Nova Friburgo", "Petrópolis", "Santa Maria Madalena", "São José do Vale do Rio Preto", "São Sebastião do Alto", "Sumidouro", "Teresópolis", "Trajano de Moraes"],
     "Médio Paraíba": ["Barra do Piraí", "Barra Mansa", "Itatiaia", "Pinheiral", "Piraí", "Porto Real", "Quatis", "Resende", "Rio Claro", "Rio das Flores", "Valença", "Volta Redonda"],
-    "Centro-Sul Fluminense": ["Areal", "Sapucaia", "Comendador Levy Gasparian", "Engenheiro Paulo de Frontin", "Mendes", "Miguel Pereira", "Paraíba do Sul", "Paty do Alferes", "Sapucaia", "Três Rios", "Vassouras"],
+    "Centro-Sul Fluminense": ["Areal", "Sapucaia", "Comendador Levy Gasparian", "Engenheiro Paulo de Frontin", "Mendes", "Miguel Pereira", "Paraíba do Sul", "Paty do Alferes", "Três Rios", "Vassouras"],
     "Costa Verde": ["Angra dos Reis", "Mangaratiba", "Paraty"],
 }
-REG_POR_NOME = {}
-for reg, nomes in REGIOES.items():
-    for n in nomes:
-        REG_POR_NOME.setdefault(n, reg)
+REG_POR_NOME = {n: reg for reg, nomes in REGIOES.items() for n in nomes}
+
+
+def num(x):
+    return int(x or 0)
 
 
 def main():
     municipios = {m["c"]: m["n"] for m in json.load(open(f"{BASE}/onde/rj.json"))}
-    ac = defaultdict(lambda: defaultdict(int))
+
+    # aptos por seção (do 1º turno de presidente já montado)
+    aptos = {}
     for f in glob.glob(f"{BASE}/secoes/rj-*.json"):
         for chave, s in json.load(open(f)).items():
-            cod = chave.split("-")[0]
-            a = ac[cod]
-            a["aptos"] += s["aptos"]
-            a["comparecimento"] += s["comparecimento"]
-            a["brancos"] += s["brancos"]
-            a["nulos"] += s["nulos"]
-            a["lula"] += s["nominais"].get("13", 0)
-            a["flavio"] += s["nominais"].get("22", 0)
-            a["outros"] += sum(v for k, v in s["nominais"].items() if k not in ("13", "22"))
+            cod, zona, secao = chave.split("-")
+            aptos[(cod, int(zona), int(secao))] = s["aptos"]
+
+    gov = {}
+    for r in csv.DictReader(open(SECOES)):
+        if r["mun"] in municipios:
+            gov[(r["mun"], int(r["zona"]), int(r["secao"]))] = {
+                "paes": num(r["gov_55"]), "ruas": num(r["gov_22"]), "total": num(r["gov_total"]),
+                "bn": num(r["gov_branco"]) + num(r["gov_nulo"]),
+            }
+
+    def somar(chaves):
+        t = {"aptos": 0, "paes": 0, "ruas": 0, "total": 0, "bn": 0}
+        for k in chaves:
+            g = gov.get(k)
+            if not g:
+                continue
+            t["aptos"] += aptos.get(k, 0)
+            for c in ("paes", "ruas", "total", "bn"):
+                t[c] += g[c]
+        t["outros"] = t["total"] - t["paes"] - t["ruas"] - t["bn"]
+        t["abst"] = t["aptos"] - t["total"]
+        return t
+
+    # municípios
+    por_mun = defaultdict(list)
+    for k in gov:
+        por_mun[k[0]].append(k)
     saida, sem_regiao = [], []
-    for cod, a in ac.items():
-        nome = municipios.get(cod, cod)
+    for cod, chaves in por_mun.items():
+        t = somar(chaves)
+        nome = municipios[cod]
         reg = REG_POR_NOME.get(nome)
         if not reg:
             sem_regiao.append(nome)
             reg = "Outros"
-        saida.append({"c": cod, "n": nome, "r": reg, "aptos": a["aptos"], "abst": a["aptos"] - a["comparecimento"],
-                      "brancos": a["brancos"], "nulos": a["nulos"], "lula": a["lula"], "flavio": a["flavio"], "outros": a["outros"]})
+        saida.append({"c": cod, "n": nome, "r": reg, "aptos": t["aptos"], "paes": t["paes"], "ruas": t["ruas"],
+                      "bn": t["bn"], "outros": t["outros"], "abst": t["abst"]})
     saida.sort(key=lambda x: x["n"])
     os.makedirs(os.path.dirname(SAIDA), exist_ok=True)
-    json.dump({"fonte": "Boletins de urna do TSE, 1º turno 2026, Presidente (via OndeDaPraConversar)", "municipios": saida},
+    json.dump({"fonte": "Boletins de urna do TSE, 1º turno 2026, Governador", "municipios": saida},
               open(SAIDA, "w"), ensure_ascii=False, separators=(",", ":"))
-    print(len(saida), "municípios; sem região:", sem_regiao)
+    tot = {c: sum(m[c] for m in saida) for c in ("aptos", "paes", "ruas", "bn", "outros", "abst")}
+    print(len(saida), "municípios; sem região:", sem_regiao, tot)
 
-
-def regioes():
-    """Regiões de votação (bairro/local) do RJ com boletim, para o mapa.
-    Linha: bairro, 1º local, lat, lon, eleitores, brancos+nulos, abstenção, lula, flávio, código do município."""
-    nomes = {m["c"]: m["n"] for m in json.load(open(f"{BASE}/onde/rj.json"))}
-    linhas, vistos = [], set()
-    for f in sorted(glob.glob(f"{BASE}/onde/rj-*.json")):
-        cod = os.path.basename(f)[3:-5]
+    # regiões de votação (bairro/local)
+    linhas = []
+    for f in glob.glob(f"{BASE}/celulas/*.json"):
         for r in json.load(open(f)):
-            _id, bairro, local, nlocais, nsecoes, lat, lon, eleitores, urnas, apuradas, brancos, nulos, abst, lula, flavio, _d = r
-            if _id in vistos:
+            if r["uf"] != "RJ":
                 continue
-            vistos.add(_id)
-            linhas.append([bairro, local, round(lat, 5), round(lon, 5), eleitores, brancos + nulos, abst, lula, flavio, cod])
+            cod = r["id"].split("-")[1]
+            chaves = [(cod, z, s) for loc in r["locais"] for z, s in loc["secoes"]]
+            t = somar(chaves)
+            if not t["total"]:
+                continue
+            linhas.append([r["bairro"], r["locais"][0]["nome"] if r["locais"] else "", round(r["lat"], 5), round(r["lon"], 5),
+                           t["aptos"], t["paes"], t["ruas"], t["bn"], t["outros"], t["abst"], cod])
     os.makedirs(os.path.dirname(SAIDA_REGIOES), exist_ok=True)
-    json.dump({"colunas": ["bairro", "local", "lat", "lon", "eleitores", "bn", "abst", "lula", "flavio", "cod"],
-               "municipios": nomes, "linhas": linhas}, open(SAIDA_REGIOES, "w"), ensure_ascii=False, separators=(",", ":"))
-    print(len(linhas), "regiões de votação")
+    json.dump({"colunas": ["bairro", "local", "lat", "lon", "eleitores", "paes", "ruas", "bn", "outros", "abst", "cod"],
+               "municipios": municipios, "linhas": linhas}, open(SAIDA_REGIOES, "w"), ensure_ascii=False, separators=(",", ":"))
+    print(len(linhas), "regiões de votação; Paes:", sum(l[5] for l in linhas), "Ruas:", sum(l[6] for l in linhas))
 
 
 main()
-regioes()

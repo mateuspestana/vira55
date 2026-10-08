@@ -29,7 +29,7 @@ export default function Hero() {
             </p>
             <div className="cta-linha">
               <a className="botao amarelo" href="#mapa">Ver o mapa do estado</a>
-              <a className="botao contorno" href="#paes-ruas">Propostas lado a lado</a>
+              <a className="botao contorno" href="#propostas">Propostas do Paes</a>
               <p className="contagem">
                 <b>{dias}</b> {dias === 1 ? "dia" : "dias"} para votar
               </p>

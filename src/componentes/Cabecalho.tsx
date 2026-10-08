@@ -1,8 +1,7 @@
 const LINKS = [
   ["#mapa", "Mapa"],
   ["#fez-faz", "Fez e faz"],
-  ["#paes-ruas", "Paes × Ruas"],
-  ["#os-outros", "Os outros"],
+  ["#propostas", "Propostas"],
   ["#pelo-estado", "Município a município"],
   ["#sobre", "Sobre"],
 ] as const;

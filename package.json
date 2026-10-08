@@ -10,7 +10,8 @@
     "build": "tsc -b && vite build",
     "preview": "vite preview",
     "dados": "python3 scripts/montar_rj.py",
-    "conferir": "python3 scripts/conferir_citacoes.py"
+    "conferir": "python3 scripts/conferir_citacoes.py",
+    "podar": "bash scripts/podar_deploys.sh"
   },
   "dependencies": {
     "@fontsource-variable/bricolage-grotesque": "^5.2.0",

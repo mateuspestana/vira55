@@ -3,8 +3,7 @@ import Cabecalho from "./componentes/Cabecalho";
 import Hero from "./componentes/Hero";
 import Urna from "./componentes/Urna";
 import FezFaz from "./componentes/FezFaz";
-import Duelo from "./componentes/Duelo";
-import Matriz from "./componentes/Matriz";
+import Propostas from "./componentes/Propostas";
 import MapaRJ from "./componentes/MapaRJ";
 import PeloEstado from "./componentes/PeloEstado";
 import Sobre from "./componentes/Sobre";
@@ -20,8 +19,7 @@ export default function App() {
         <Urna />
         <FezFaz />
         <div className="fio-onda" aria-hidden="true" />
-        <Duelo />
-        <Matriz />
+        <Propostas />
         <PeloEstado />
         <Sobre />
       </main>

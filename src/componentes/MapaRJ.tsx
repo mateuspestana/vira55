@@ -4,10 +4,10 @@ import { useEffect, useMemo, useRef, useState } from "react";
 
 type Regiao = {
   bairro: string; local: string; lat: number; lon: number; eleitores: number;
-  bn: number; abst: number; lula: number; flavio: number; cod: string;
+  paes: number; ruas: number; bn: number; outros: number; abst: number; cod: string;
 };
 type Dados = { regioes: Regiao[]; municipios: Record<string, string> };
-type Metrica = "todos" | "abst" | "bn";
+type Metrica = "todos" | "abst" | "bn" | "outros";
 
 const TILES = "https://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png";
 const ATRIBUICAO =
@@ -21,12 +21,13 @@ const AMARELO = "#fcaf17";
 const limitesDados = (d: Dados) => L.latLngBounds(d.regioes.map((r) => [r.lat, r.lon] as [number, number]));
 const nf = new Intl.NumberFormat("pt-BR");
 const semAcento = (t: string) => t.normalize("NFD").replace(/\p{Diacritic}/gu, "").toLowerCase();
-const valorDe = (r: Regiao, m: Metrica) => (m === "abst" ? r.abst : m === "bn" ? r.bn : r.abst + r.bn);
+const valorDe = (r: Regiao, m: Metrica) => (m === "abst" ? r.abst : m === "bn" ? r.bn : m === "outros" ? r.outros : r.abst + r.bn + r.outros);
 
 const ROTULOS: Record<Metrica, string> = {
-  todos: "Não votaram ou anularam",
+  todos: "Todos em aberto",
   abst: "Não foram votar",
   bn: "Branco e nulo",
+  outros: "Outros candidatos",
 };
 
 export default function MapaRJ() {
@@ -177,7 +178,7 @@ export default function MapaRJ() {
             <h2 id="t-mapa">Onde tem mais gente para conversar</h2>
             <p>
               Cada bolha é um bairro ou local de votação. Quanto maior, mais eleitores não votaram
-              ou anularam o voto no 1º turno.
+              em Paes nem em Ruas no 1º turno: quem ficou em casa, anulou ou escolheu outro candidato.
             </p>
           </div>
           <div className="mapa-bloco">
@@ -207,15 +208,16 @@ export default function MapaRJ() {
               <span className="mapa-rotulo">Região escolhida</span>
               <h3>{r.bairro}</h3>
               <p className="ficha-sub">{dados!.municipios[r.cod]} · {r.local}</p>
-              <p className="ficha-grande">{nf.format(r.abst + r.bn)}<small> eleitores não votaram ou anularam</small></p>
+              <p className="ficha-grande">{nf.format(r.abst + r.bn + r.outros)}<small> eleitores não votaram em Paes nem em Ruas</small></p>
               <dl className="ficha-numeros">
                 <div><dt>Eleitores</dt><dd>{nf.format(r.eleitores)}</dd></div>
-                <div><dt>Não foram votar</dt><dd>{nf.format(r.abst)}</dd></div>
+                <div><dt>Votaram Paes</dt><dd>{nf.format(r.paes)}</dd></div>
+                <div><dt>Votaram Douglas Ruas</dt><dd>{nf.format(r.ruas)}</dd></div>
+                <div><dt>Outros candidatos</dt><dd>{nf.format(r.outros)}</dd></div>
                 <div><dt>Branco e nulo</dt><dd>{nf.format(r.bn)}</dd></div>
-                <div><dt>Votaram Lula</dt><dd>{nf.format(r.lula)}</dd></div>
-                <div><dt>Votaram Flávio</dt><dd>{nf.format(r.flavio)}</dd></div>
+                <div><dt>Não foram votar</dt><dd>{nf.format(r.abst)}</dd></div>
               </dl>
-              <p className="ficha-nota">Presidente, 1º turno. A conversa acontece na rua, perto do local, nunca dentro dele.</p>
+              <p className="ficha-nota">Governador, 1º turno. A conversa acontece na rua, perto do local, nunca dentro dele.</p>
             </div>
           ) : (
             <div className="mapa-bloco">

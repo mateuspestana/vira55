@@ -1,739 +1,639 @@
 {
- "candidatos": {
-  "paes": {
-   "nome": "Eduardo Paes",
-   "partido": "PSD",
-   "numero": 55,
-   "fonte_url": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/190017138970",
-   "pagina_candidato": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/SUDESTE/RJ/20322002026/190002543380/2026/RJ",
-   "temas": {
-    "seguranca": [
-     {
-      "titulo": "Redução da violência e novo patrulhamento",
-      "trecho": "Reduzir a violência no estado, sobretudo os assaltos, tiroteios e feminicídios, de forma significativa já no primeiro ano de mandato, por meio da implantação de um novo modelo de patrulhamento territorial, do treinamento dos policiais, do fortalecimento das patrulhas Maria da Penha e do aumento do efetivo dedicado às operações de vigilância e policiamento ostensivo conforme os indicadores criminais em cada município do estado.",
-      "pagina": 6
-     },
-     {
-      "titulo": "Escolha técnica de comandantes e delegados",
-      "trecho": "Eliminar imediatamente as indicações de políticos no processo de escolha dos comandantes dos batalhões da Polícia Militar e dos delegados da Polícia Civil, que será estritamente técnico.",
-      "pagina": 6
-     }
-    ],
-    "saude": [
-     {
-      "titulo": "Recuperação de hospitais e UPAs estaduais",
-      "trecho": "Recuperar os serviços públicos de saúde do estado, colocando os hospitais e as UPAs estaduais para funcionarem com mais eficiência, agilidade e empatia com a população.",
-      "pagina": 6
-     },
-     {
-      "titulo": "Médicos, especialistas e remédios",
-      "trecho": "Contratar mais médicos e especialistas e oferecer um atendimento humanizado para as pessoas, além de assegurar o fornecimento e distribuição de remédios em todo o estado.",
-      "pagina": 6
-     }
-    ],
-    "transporte": [
-     {
-      "titulo": "BRT e ônibus intermunicipais",
-      "trecho": "Investir na melhoria do transporte metropolitano e intermunicipal, expandindo o BRT para mais cidades, além de garantir mais qualidade no serviço e transparência no custo das passagens dos ônibus intermunicipais.",
-      "pagina": 7
-     },
-     {
-      "titulo": "Linha 3 do metrô",
-      "trecho": "Iniciar as obras da Linha 3 do metrô para Niterói, São Gonçalo e Itaboraí até o fim do mandato.",
-      "pagina": 7
-     }
-    ],
-    "economia": [
-     {
-      "titulo": "Atração de empresas e investimentos",
-      "trecho": "Fazer o estado voltar a atrair empresas e investimentos, gerando emprego e renda em todas as regiões de acordo com as suas vocações, sobretudo nos setores de petróleo e gás, turismo, indústria naval, agronegócio e cultura & entretenimento.",
-      "pagina": 7
-     }
-    ],
-    "educacao": [
-     {
-      "titulo": "Ensino médio profissionalizante em tempo integral",
-      "trecho": "Expandir o ensino médio profissionalizante em tempo integral em todo o estado e de acordo com as vocações econômicas de cada região, garantindo assim mais oportunidades de trabalho e acesso ao primeiro emprego para os nossos jovens",
-      "pagina": 6
-     }
-    ],
-    "ambiente_saneamento": [
-     {
-      "titulo": "Obras contra enchentes e deslizamentos",
-      "trecho": "Implantar um grande plano de obras para combater as enchentes e prevenir deslizamentos em todo o estado, com especial atenção à Região Serrana, Costa Verde e Baixada Fluminense.",
-      "pagina": 7
-     }
-    ],
-    "interior": [
-     {
-      "titulo": "Parceria com os prefeitos dos 92 municípios",
-      "trecho": "Ser o principal parceiro de todos os 92 prefeitos do nosso estado na busca pelo desenvolvimento de seus municípios de acordo com suas necessidades e vocações - sem qualquer distinção partidária, política ou ideológica.",
-      "pagina": 5
-     },
-     {
-      "titulo": "Saúde em regiões distantes da capital",
-      "trecho": "Ampliar a rede e o atendimento nas regiões distantes da capital e garantir os repasses para fortalecer a atenção primária da saúde em todos os municípios.",
-      "pagina": 6
-     },
-     {
-      "titulo": "Estradas do interior",
-      "trecho": "Recuperar as estradas do interior com obras de recapeamento, restauração e módulos de vigilância, atuando nos 32 mil quilômetros por onde passa tudo que é consumido e produzido no nosso estado.",
-      "pagina": 7
-     }
-    ],
-    "servidor": null
-   }
-  },
-  "ruas": {
-   "nome": "Douglas Ruas",
-   "partido": "PL",
-   "numero": 22,
-   "fonte_url": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/190017018638",
-   "pagina_candidato": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/SUDESTE/RJ/20322002026/190002542887/2026/RJ",
-   "temas": {
-    "seguranca": [
-     {
-      "titulo": "Segurança pública como prioridade",
-      "trecho": "A segurança pública será a prioridade central do nosso governo. Não aceitaremos que criminosos controlem territórios e retirem das famílias o direito de viver em paz.",
-      "pagina": 2
-     },
-     {
-      "titulo": "Escudo Fluminense",
-      "trecho": "Tolerância zero à circulação de armas, drogas e o tráfico de animais silvestres. Por terra, mar e ar, todas as forças de segurança numa só estratégia, com tecnologia de ponta.",
-      "pagina": 8
-     }
-    ],
-    "saude": [
-     {
-      "titulo": "Redução de filas",
-      "trecho": "Na saúde, isso significa reduzir filas com prontuário digital, acompanhamento em tempo real, mutirões permanentes e centros regionais que reúnem consulta, exame, diagnóstico e encaminhamento no mesmo lugar.",
-      "pagina": 17
-     },
-     {
-      "titulo": "Regionalização da rede de saúde",
-      "trecho": "Regionalizar é governar para todo o Estado. A rede será organizada por região, com repasse condicionado a metas, aproveitamento das estruturas existentes e prestação de contas à população.",
-      "pagina": 19
-     }
-    ],
-    "transporte": [
-     {
-      "titulo": "Integração do sistema de transporte",
-      "trecho": "O Estado vai liderar a integração do sistema, com responsabilidade fiscal, tecnologia, transparência e foco no passageiro.",
-      "pagina": 44
-     },
-     {
-      "titulo": "Linha 3 do metrô",
-      "trecho": "Acompanhar a finalização do projeto da Linha 3 do metrô e realizar a captação de recursos para sua implementação.",
-      "pagina": 43
-     }
-    ],
-    "economia": [
-     {
-      "titulo": "Papel do Estado na economia",
-      "trecho": "Isso exige um Estado que assegure segurança jurídica, reduza burocracia, qualifique trabalhadores, invista em infraestrutura e atue como parceiro de quem produz.",
-      "pagina": 28
-     },
-     {
-      "titulo": "Balcão único de investimentos",
-      "trecho": "Balcão único estadual de atração e retenção de investimentos, reunindo em fluxo digital a AgeRio, CODIN, SEFAZ, INEA e JUCERJA, e demais órgãos estratégicos, para reduzir burocracia, dar previsibilidade e acelerar decisões.",
-      "pagina": 29
-     }
-    ],
-    "educacao": [
-     {
-      "titulo": "Meta para o ensino médio",
-      "trecho": "O jovem precisa sair do ensino médio sabendo ler, escrever, calcular e com uma profissão à vista.",
-      "pagina": 22
-     },
-     {
-      "titulo": "Alfabetização, recuperação e ensino técnico",
-      "trecho": "Na educação, significa melhorar a qualidade do aprendizado, com apoio aos municípios na alfabetização na idade certa, recuperação de quem ficou para trás, ensino técnico dentro da escola e valorização dos professores e diretores que entregam resultado.",
-      "pagina": 17
-     }
-    ],
-    "ambiente_saneamento": [
-     {
-      "titulo": "Monitoramento das concessionárias de saneamento",
-      "trecho": "Fortalecimento do monitoramento das concessionárias de saneamento para assegurar o cumprimento integral das metas contratuais, com prioridade à universalização dos serviços, à redução das perdas de água por meio do acompanhamento permanente dos índices de distribuição e da exigência de investimentos corretivos, à expansão das redes de coleta e tratamento de esgoto, especialmente em áreas e municípios com maior déficit de cobertura e à despoluição dos principais corpos hídricos do Estado, do controle dos lançamentos irregulares e da divulgação transparente dos resultados ambientais.",
-      "pagina": 46
-     },
-     {
-      "titulo": "Prevenção de enchentes e deslizamentos",
-      "trecho": "O Estado vai mudar a lógica da reação para a prevenção, usando tecnologia, inteligência de risco, defesa civil fortalecida e apoio técnico aos municípios.",
-      "pagina": 48
-     }
-    ],
-    "interior": [
-     {
-      "titulo": "Desenvolvimento fora da capital",
-      "trecho": "O desenvolvimento não ficará concentrado na capital: vamos aproximar o governo das prefeituras, fortalecer as economias regionais e criar oportunidades para que as pessoas prosperem nas cidades onde moram.",
-      "pagina": 2
-     },
-     {
-      "titulo": "Escritórios Regionais de Desenvolvimento",
-      "trecho": "Escritórios Regionais de Desenvolvimento, um em cada uma das 8 regiões do estado, preferencialmente aproveitando estruturas existentes, para apoiar prefeituras na formulação de projetos, captação de recursos, licenciamento, parcerias e atração de investimentos.",
-      "pagina": 30
-     }
-    ],
-    "servidor": [
-     {
-      "titulo": "Financiamento habitacional para servidores estaduais",
-      "trecho": "Financiamento facilitado da casa própria para os servidores públicos estaduais.",
-      "pagina": 25
-     }
-    ]
-   }
-  },
-  "siri": {
-   "nome": "William Siri",
-   "partido": "PSOL",
-   "numero": 50,
-   "fonte_url": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/190016871149",
-   "pagina_candidato": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/SUDESTE/RJ/20322002026/190002536162/2026/RJ",
-   "temas": {
-    "seguranca": [
-     {
-      "titulo": "Novo modelo de segurança pública",
-      "trecho": "Implementar um novo modelo de segurança pública, com o foco na proteção da vida, promoção da cidadania, na garantia de direitos e na defesa das liberdades;",
-      "pagina": 37
-     },
-     {
-      "titulo": "Política alinhada à ADPF das Favelas",
-      "trecho": "Implementar uma política de segurança pública alinhada às determinações da ADPF das Favelas, priorizando inteligência e investigação, estabelecendo protocolos para operações policiais, garantindo transparência, controle da atividade policial, redução da letalidade e proteção da vida nos territórios;",
-      "pagina": 37
-     }
-    ],
-    "saude": [
-     {
-      "titulo": "Mínimo constitucional de 12% para a saúde",
-      "trecho": "Ampliar os recursos destinados à saúde com a aplicação do mínimo constitucional de 12% das verbas estaduais, observando criteriosamente a sétima diretriz da Resolução 322 do Conselho Nacional de Saúde que descaracteriza alguns outros investimentos como ações deste financiamento, bem como a legislação pertinente em vigor;",
-      "pagina": 93
-     },
-     {
-      "titulo": "Transição para gestão pública direta",
-      "trecho": "Implementar um plano de transição do sistema atual, que prioriza a gestão privada, para um sistema de gestão pública e direta com a realização de concursos públicos na área da saúde, evitando a desorganização do serviço e a desassistência, garantindo o progressivo encerramento de todas as formas de privatização e terceirização da Saúde;",
-      "pagina": 94
-     }
-    ],
-    "transporte": [
-     {
-      "titulo": "Política de mobilidade sustentável",
-      "trecho": "Implementar uma política de mobilidade sustentável pautada na estruturação de uma rede integrada de acessibilidade e mobilidade para o estado, priorizando o transporte público, em especial de alta capacidade sobre trilhos;",
-      "pagina": 82
-     },
-     {
-      "titulo": "Tarifa Zero",
-      "trecho": "Planejar etapas de redução progressiva e acelerada do preço da tarifa até atingir a Tarifa Zero em todos os tipos de transporte público estadual, em diálogo com o governo federal, com o objetivo de atenuar o aumento de demanda decorrente da implementação do serviço gratuito e permitir que o poder público tenha tempo de resposta para fazer as adequações necessárias à melhor operação do serviço;",
-      "pagina": 86
-     }
-    ],
-    "economia": [
-     {
-      "titulo": "Plano Estadual de Desenvolvimento Econômico e Reindustrialização",
-      "trecho": "Instituir um Plano Estadual de Desenvolvimento Econômico e Reindustrialização, com metas de curto, médio e longo prazo para diversificar a estrutura produtiva, gerar empregos formais e bem remunerados, reduzir as desigualdades regionais e superar a dependência excessiva das receitas provenientes da exploração de petróleo e gás.",
-      "pagina": 18
-     },
-     {
-      "titulo": "Postos de trabalho formal em cada região",
-      "trecho": "Priorizar medidas de incentivo fiscal e garantir infraestrutura para a criação de postos de trabalho formal em cada região do estado (Metropolitana, Noroeste Fluminense, Norte Fluminense, Baixadas Litorâneas, Serrana, Centro-Sul Fluminense, Médio Paraíba e Costa Verde), aproximando o emprego de quem precisa e desconcentrando as oportunidades do estado;",
-      "pagina": 32
-     }
-    ],
-    "educacao": [
-     {
-      "titulo": "Gestão democrática da rede estadual",
-      "trecho": "Garantir processos de gestão democrática em toda a rede estadual de ensino, com a eleição de diretores nas escolas e construção/valorização de conselhos gestores de caráter deliberativo nas comunidades pedagógicas;",
-      "pagina": 105
-     },
-     {
-      "titulo": "Alfabetização até 8 anos de idade",
-      "trecho": "Garantir o direito à alfabetização para todas as crianças até 8 anos de idade;",
-      "pagina": 105
-     }
-    ],
-    "ambiente_saneamento": [
-     {
-      "titulo": "Reestatização da CEDAE",
-      "trecho": "Iniciar o processo de retomada pública e reestatização da CEDAE, fortalecendo a Agenersa e os órgãos competentes para realizar uma auditoria rigorosa dos contratos de concessão, apurar irregularidades, cobranças abusivas, descumprimento de metas e falhas na prestação dos serviços.",
-      "pagina": 64
-     },
-     {
-      "titulo": "Segurança hídrica",
-      "trecho": "Garantir a segurança hídrica do estado, protegendo mananciais estratégicos, ampliando a reservação de água e fortalecendo os sistemas de abastecimento diante das mudanças climáticas.",
-      "pagina": 64
-     }
-    ],
-    "interior": [
-     {
-      "titulo": "Regionalização das ações da Secretaria de Saúde",
-      "trecho": "Regionalizar as ações da Secretaria de Estado de Saúde, em articulação com as prefeituras do estado, garantindo o fortalecimento das estruturas existentes em cada região (Metropolitana, Noroeste Fluminense, Norte Fluminense, Baixadas Litorâneas, Serrana, Centro-Sul Fluminense, Médio Paraíba e Costa Verde) e dando prioridade para os territórios mais vulneráveis e com menos recursos;",
-      "pagina": 93
-     },
-     {
-      "titulo": "Hospitais regionais estaduais",
-      "trecho": "Implementar pelo menos dois novos hospitais regionais estaduais: Um no Noroeste Fluminense e outro na Baixada Fluminense, na Rodovia Rio-Santos",
-      "pagina": 93
-     }
-    ],
-    "servidor": [
-     {
-      "titulo": "Valorização do servidor e data-base",
-      "trecho": "Instituir uma política permanente de valorização dos servidores públicos estaduais, assegurando reajuste salarial anual, em mês fixo definido como data-base do funcionalismo, com recomposição das perdas inflacionárias acumuladas pelo Índice Nacional de Preços ao Consumidor Amplo (IPCA).",
-      "pagina": 7
-     },
-     {
-      "titulo": "Calendário de concursos públicos",
-      "trecho": "Estabelecer um calendário progressivo de realização de concursos públicos para a recomposição dos quadros de servidores e combater o déficit em todos os órgãos estaduais, considerando como marco a implementação do PROPAG;",
-      "pagina": 7
-     }
-    ]
-   }
-  },
-  "marinho": {
-   "nome": "André Marinho",
-   "partido": "NOVO",
-   "numero": 30,
-   "fonte_url": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/190016887030",
-   "pagina_candidato": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/SUDESTE/RJ/20322002026/190002537524/2026/RJ",
-   "temas": {
-    "seguranca": [
-     {
-      "titulo": "Plano em cinco frentes",
-      "trecho": "O Plano Estadual de Segurança Pública responde com um cerco em cinco frentes simultâneas. Cada uma fecha uma saída do crime. Juntas, sufocam a engrenagem inteira.",
-      "pagina": 131
-     },
-     {
-      "titulo": "Escudo Rio",
-      "trecho": "O Escudo Rio existe para fechar essa porta de entrada antes que a carga chegue ao território — e não correr atrás depois que o estrago já está feito.",
-      "pagina": 132
-     }
-    ],
-    "saude": [
-     {
-      "titulo": "Rio Sem Fila",
-      "trecho": "Zerar as principais filas de exames e cirurgias eletivas do SUS estadual e qualificar a rede de urgência, emergência e alta complexidade, levando o serviço especializado para onde a população está — com prioridade para o interior e a Baixada Fluminense, onde a espera mata mais.",
-      "pagina": 37
-     }
-    ],
-    "transporte": [
-     {
-      "titulo": "Recuperação da malha ferroviária e do BRT",
-      "trecho": "Recuperar a malha ferroviária e o BRT e expandir a capacidade metropolitana com o Monotrilho Suspenso ao longo do Arco e a integração ao Metrô, reduzindo de forma medida o tempo médio de deslocamento e devolvendo tempo de vida ao trabalhador.",
-      "pagina": 20
-     },
-     {
-      "titulo": "Bilhete Único Metropolitano",
-      "trecho": "Bilhete Único Metropolitano, aplicativo estadual de informação em tempo real e Passe Livre para jovens em formação técnica.",
-      "pagina": 20
-     }
-    ],
-    "economia": [
-     {
-      "titulo": "Diversificação econômica",
-      "trecho": "Diversificar a matriz econômica fluminense em setores portadores de futuro, reduzindo a dependência do petróleo e transformando a competência estadual em óleo e gás em liderança nas energias e nas indústrias do século XXI, com geração de emprego qualificado em todas as regiões.",
-      "pagina": 52
-     },
-     {
-      "titulo": "Plataforma Trabalho Já Rio",
-      "trecho": "Criar o primeiro sistema estadual de match em tempo real entre vaga e trabalhador, com inteligência artificial preditiva e busca ativa estruturada, encurtando radicalmente o tempo entre a procura e a colocação e conectando qualificação à vaga concreta.",
-      "pagina": 54
-     }
-    ],
-    "educacao": [
-     {
-      "titulo": "Programa Aprendiz Rio",
-      "trecho": "Programa Aprendiz Rio: aprendizagem dual para jovens de 15 a 18 anos, com 3 dias na escola e 2 dias na empresa, salário-aprendiz de R$ 800 a R$ 1.200 cofinanciado (Estado 30%, empresa 70%), contrato CLT, vale-transporte e mentor designado.",
-      "pagina": 45
-     },
-     {
-      "titulo": "Centros técnicos estaduais",
-      "trecho": "Ampliação e modernização da rede de centros técnicos estaduais (Faetec e novas unidades), com laboratórios alinhados às tecnologias das cadeias-alvo.",
-      "pagina": 46
-     }
-    ],
-    "ambiente_saneamento": [
-     {
-      "titulo": "Despoluição da Baía de Guanabara",
-      "trecho": "Despoluição da Baía de Guanabara com emissário submarino, ecobarreiras em rios e canais, desassoreamento de calhas e tecnologias inovadoras de recuperação aquática.",
-      "pagina": 94
-     },
-     {
-      "titulo": "Metas de coleta e tratamento de esgoto",
-      "trecho": "Ampliação e fiscalização das metas de coleta e tratamento de esgoto na bacia, em articulação com a concessionária e as agências reguladoras.",
-      "pagina": 95
-     }
-    ],
-    "interior": [
-     {
-      "titulo": "Pacto Rio 92",
-      "trecho": "Levar a presença do Estado, com serviços integrados e capacidade técnica de gestão, a todos os 92 municípios, substituindo a lógica do repasse sem contrapartida por um pacto de resultado com metas pactuadas, apoio técnico e prêmio por desempenho, de modo a reduzir a desigualdade territorial e qualificar o gasto público municipal.",
-      "pagina": 74
-     },
-     {
-      "titulo": "Rede de oncologia no interior",
-      "trecho": "Expansão da rede de oncologia e diagnóstico no interior, com novos institutos e polos regionais — a exemplo dos Institutos Estaduais do Câncer previstos para Nova Iguaçu (86 leitos, 20 de UTI) e Nova Friburgo (SES-RJ, 2023) — e do polo Norte/Noroeste ancorado em Campos.",
-      "pagina": 38
-     }
-    ],
-    "servidor": null
-   }
-  },
-  "busnello": {
-   "nome": "Coronel Busnello",
-   "partido": "MISSÃO",
-   "numero": 14,
-   "fonte_url": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/190017031845",
-   "pagina_candidato": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/SUDESTE/RJ/20322002026/190002544120/2026/RJ",
-   "temas": {
-    "seguranca": [
-     {
-      "titulo": "Segurança Presente fora da Região Metropolitana",
-      "trecho": "O programa Segurança Presente será expandido para novos corredores comerciais e educacionais fora da Região Metropolitana, com base comunitária fixa por território e patrulhamento a pé como padrão operacional, não como exceção.",
-      "pagina": 13
-     },
-     {
-      "titulo": "Programa de Retomada de Territórios",
-      "trecho": "A retomada seguirá três fases — asfixia financeira e de inteligência; intervenção judicial e operacional; e consolidação da presença estatal —, com pilotos na Baixada Fluminense, na Capital e em São Gonçalo, e articulação direta com o programa de urbanização integrada e regularização fundiária tratado em capítulo próprio deste plano de governo.",
-      "pagina": 13
-     }
-    ],
-    "saude": [
-     {
-      "titulo": "Acesso no interior e critério dos repasses",
-      "trecho": "O interior fluminense receberá padrão de acesso equivalente ao da capital em leitos críticos, cobertura de urgência e especialistas, e os repasses estaduais aos municípios seguirão critério técnico e público, e não negociação política caso a caso.",
-      "pagina": 17
-     },
-     {
-      "titulo": "Cofinanciamento de equipes de saúde da família",
-      "trecho": "O Governo do Estado ampliará o cofinanciamento estadual de equipes de saúde da família para viabilizar 1.200 novas equipes nos municípios com cobertura abaixo de 60%, com prioridade para a Baixada Fluminense e a Zona Oeste da capital, respeitando a autonomia municipal na contratação e com adscrição nominal obrigatória de cada cidadão a um médico responsável por seu cuidado.",
-      "pagina": 18
-     }
-    ],
-    "transporte": [
-     {
-      "titulo": "Integração de bilhetagem e horários",
-      "trecho": "O Governo do Estado promoverá a integração da bilhetagem e a harmonização de horários entre os diferentes sistemas de transporte da Região Metropolitana, em cooperação com os municípios envolvidos, por meio de convênio que estabeleça regras únicas de transferência tarifária e sincronização dos quadros de horários entre os modais estaduais e municipais, com prioridade para os terminais de maior fluxo de integração intermodal.",
-      "pagina": 31
-     },
-     {
-      "titulo": "Manutenção de rodovias estaduais",
-      "trecho": "O Governo do Estado recuperará e ampliará a capacidade das principais ligações estruturantes das rodovias estaduais, com prioridade para a RJ-106, e instituirá programa permanente de obras públicas, técnico e com reserva orçamentária própria, para manutenção preventiva de rodovias, pontes e demais equipamentos de transporte público estaduais, substituindo a lógica reativa de intervenção emergencial por planejamento plurianual auditável.",
-      "pagina": 30
-     }
-    ],
-    "economia": [
-     {
-      "titulo": "Reindustrialização do Leste Fluminense",
-      "trecho": "O Governo do Estado indicará Secretário de Desenvolvimento dedicado à industrialização, consolidará o levantamento de todos os incentivos vigentes em um Plano Estadual de Reindustrialização único, e constituirá zona industrial no Leste Fluminense, na região de Itaboraí e entorno — beneficiada pela futura Ferrovia EF-118 e pela proximidade com a BR-101 —, em cooperação com os municípios para redução de ISS e IPTU, estruturando novo eixo industrial em óleo e gás, construção civil, indústria de transformação, processamento de pescados e indústria automotiva de motocicletas.",
-      "pagina": 34
-     }
-    ],
-    "educacao": [
-     {
-      "titulo": "Piso do magistério e plano de carreira",
-      "trecho": "O Governo do Estado adequará os vencimentos de todas as categorias ao piso nacional do magistério, em cronograma plurianual compatível com a Lei de Responsabilidade Fiscal, e enviará à Assembleia Legislativa novo Plano de Cargos, Carreiras e Salários com progressão vinculada a mérito e formação continuada.",
-      "pagina": 23
-     }
-    ],
-    "ambiente_saneamento": [
-     {
-      "titulo": "Baía Viva RJ",
-      "trecho": "O Governo do Estado instituirá o Baía Viva RJ, com estações de monitoramento científico e rastreamento por GPS de fauna marinha em parceria com a UFRJ e a UFF, unidade marítima de fiscalização com drones e vigilância por inteligência artificial em articulação com o INEA e as forças de segurança, e programas educacionais e de turismo sustentável — com meta de melhorar em 40% a qualidade da água e gerar 25 mil empregos verdes até 2030.",
-      "pagina": 43
-     },
-     {
-      "titulo": "Conselho de Vigilância da Água e Saneamento",
-      "trecho": "O Governo do Estado criará o Conselho Estadual de Vigilância da Água e Saneamento (CEVAS-RJ), com participação de universidades, sociedade civil, Ministério Público e escolas públicas como polos de monitoramento cidadão, competência para requisitar auditorias e obrigatoriedade de rampas públicas de acesso a rios de grande fluxo; e instituirá a Operação Água Segura, protocolo permanente entre a Secretaria de Segurança Pública e as concessionárias de saneamento para mapear as zonas onde obras estão paralisadas por ação do crime organizado e garantir, com planejamento integrado, a retomada das frentes de obra.",
-      "pagina": 44
-     }
-    ],
-    "interior": [
-     {
-      "titulo": "Apoio técnico às prefeituras e vocações regionais",
-      "trecho": "Os 92 municípios fluminenses raramente contam com apoio técnico do Estado para o desenvolvimento econômico local, e a aplicação municipal dos princípios da Lei federal da Liberdade Econômica (Lei nº 13.874/2019) é desigual, gerando insegurança jurídica para pequenos empreendedores fora da Região Metropolitana.",
-      "pagina": 35
-     },
-     {
-      "titulo": "UTI em cada região",
-      "trecho": "O Governo do Estado equipará hospitais já existentes — sem construção do zero — com UTI adulto e UTI neonatal nas quatro regiões de maior déficit, priorizando Noroeste, Serrana, Baixada Litorânea e Médio Paraíba, com integração obrigatória à Central de Vagas RJ desde o primeiro dia de operação e suporte de tele-UTI para atrair e reter intensivistas.",
-      "pagina": 19
-     }
-    ],
-    "servidor": [
-     {
-      "titulo": "Plano de cargos das carreiras de segurança",
-      "trecho": "Um novo Plano de Cargos, Carreiras e Salários será enviado à Assembleia Legislativa, com progressão por mérito e adicional de serviço equalizado entre PM, PC, Bombeiro e Peritos.",
-      "pagina": 11
-     }
-    ]
-   }
-  },
-  "juliete": {
-   "nome": "Juliete Pantoja",
-   "partido": "UP",
-   "numero": 80,
-   "fonte_url": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/190017059799",
-   "pagina_candidato": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/SUDESTE/RJ/20322002026/190002547272/2026/RJ",
-   "temas": {
-    "seguranca": [
-     {
-      "titulo": "Operações policiais nas comunidades",
-      "trecho": "Acabar com as operações militares e policiais violentas nas comunidades, substituindo-as por ações de inteligência em todo o estado, com forte fiscalização e controle das armas e munições em controle do governo estadual;",
-      "pagina": 6
-     },
-     {
-      "titulo": "Enfrentamento às milícias",
-      "trecho": "Enfrentamento direto e diário às milícias. Afastamento imediato de qualquer servidor da segurança que tenha suspeita de ligação com milícias;",
-      "pagina": 7
-     }
-    ],
-    "saude": [
-     {
-      "titulo": "Administração direta da saúde pública",
-      "trecho": "Retomada da administração direta da saúde pública pelo Estado, encerrando e auditando os contratos com as OS (Organizações Sociais) e punindo possíveis casos de corrupção;",
-      "pagina": 7
-     },
-     {
-      "titulo": "Atenção primária e Saúde da Família",
-      "trecho": "Garantia de atendimento primário e Saúde da Família em todas as cidades;",
-      "pagina": 8
-     }
-    ],
-    "transporte": [
-     {
-      "titulo": "Controle popular dos trens e metrôs e tarifa",
-      "trecho": "Administração Estatal com controle popular dos trens e metrôs. Redução de 50% das passagens em todos os transportes em janeiro de 2027 e implementação da Política de Bilhete Único Intermodal e Intermunicipal;",
-      "pagina": 11
-     },
-     {
-      "titulo": "Metrô na Baixada, Niterói e São Gonçalo",
-      "trecho": "Garantir a chegada do metrô à Baixada Fluminense, Niterói e São Gonçalo. Diminuição nos intervalos de circulação dos trens urbanos;",
-      "pagina": 11
-     }
-    ],
-    "economia": [
-     {
-      "titulo": "Frentes emergenciais de trabalho",
-      "trecho": "Criação de frentes emergenciais de trabalho para acabar com o desemprego e ampliar as obras públicas de primeira necessidade para a população, como saneamento e urbanização;",
-      "pagina": 5
-     },
-     {
-      "titulo": "Banco Estadual",
-      "trecho": "Criação de um Banco Estadual para fortalecer a capacidade de investimento público em infraestrutura;",
-      "pagina": 5
-     }
-    ],
-    "educacao": [
-     {
-      "titulo": "Ensino integral na rede estadual",
-      "trecho": "Ampliar gradualmente o Ensino Integral para 100% das escolas da rede pública estadual até 2030;",
-      "pagina": 9
-     },
-     {
-      "titulo": "Erradicação do analfabetismo",
-      "trecho": "Erradicar o analfabetismo completo e funcional em um ano;",
-      "pagina": 8
-     }
-    ],
-    "ambiente_saneamento": [
-     {
-      "titulo": "Anulação da privatização da Cedae",
-      "trecho": "Auditoria e anulação da privatização da Cedae e a reestatização da energia elétrica;",
-      "pagina": 5
-     },
-     {
-      "titulo": "Universalização do saneamento básico",
-      "trecho": "Universalização do saneamento básico em todo o estado para diminuir os índices de doenças evitáveis, que ainda se proliferam devido à falta de tratamento de água e esgoto;",
-      "pagina": 8
-     }
-    ],
-    "interior": [
-     {
-      "titulo": "Campi universitários no interior",
-      "trecho": "Ampliar e interiorizar as universidades públicas estaduais com a instalação de campi em municípios no interior do estado do Rio de Janeiro, democratizando e levando ensino, pesquisa e extensão para toda a população;",
-      "pagina": 9
-     },
-     {
-      "titulo": "Saúde da Família em todas as cidades",
-      "trecho": "Garantia de atendimento primário e Saúde da Família em todas as cidades;",
-      "pagina": 8
-     }
-    ],
-    "servidor": [
-     {
-      "titulo": "Valorização profissional dos servidores da saúde",
-      "trecho": "Valorização profissional: garantir aumentos anuais a todos os servidores da saúde, plano de cargos e carreiras para os servidores, fim dos contratos terceirizados para atividades-meio, com contratação direta também de pessoal para áreas de limpeza, segurança, maqueiros etc.",
-      "pagina": 8
-     }
-    ]
-   }
-  },
-  "cyro": {
-   "nome": "Cyro Garcia",
-   "partido": "PSTU",
-   "numero": 16,
-   "fonte_url": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/190016929078",
-   "pagina_candidato": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/SUDESTE/RJ/20322002026/190002540198/2026/RJ",
-   "temas": {
-    "seguranca": [
-     {
-      "titulo": "Posição sobre repressão policial",
-      "trecho": "Rejeitamos a ideia de que o problema da violência se resolve com mais repressão policial.",
-      "pagina": 5
-     },
-     {
-      "titulo": "Desmilitarização da segurança pública",
-      "trecho": "Defendemos a desmilitarização da segurança pública e da Polícia Militar, com constituição de uma polícia civil única, democracia interna e direito de organização dos policiais de base.",
-      "pagina": 6
-     }
-    ],
-    "saude": [
-     {
-      "titulo": "Fim da gestão por Organizações Sociais",
-      "trecho": "Defendemos o fim do modelo de gestão por Organizações Sociais e qualquer forma de privatização da saúde, modelo que já custou bilhões de reais em recursos públicos sem garantir qualidade de atendimento.",
-      "pagina": 5
-     },
-     {
-      "titulo": "Concursos públicos e reabertura de vagas",
-      "trecho": "Propomos concursos públicos imediatos com plano de cargos e carreira em todos os níveis de atenção, reabertura de vagas fechadas em clínicas da família, UPAs e hospitais, recuperação da rede federal e estadual, e ampliação da vacinação.",
-      "pagina": 5
-     }
-    ],
-    "transporte": [
-     {
-      "titulo": "Reversão das privatizações da Supervia e do MetrôRio",
-      "trecho": "Defendemos a revogação das privatizações da Supervia e do MetrôRio, sem indenização às empresas, com gestão sob controle dos trabalhadores do setor e da população usuária.",
-      "pagina": 4
-     },
-     {
-      "titulo": "Estatização de barcas e ônibus municipais",
-      "trecho": "Defendemos também a estatização dos serviços de barcas e ônibus municipais, com tarifas sociais, passe livre para desempregados e caminho para a tarifa zero.",
-      "pagina": 5
-     }
-    ],
-    "economia": [
-     {
-      "titulo": "Plano emergencial contra a fome",
-      "trecho": "Diante desse quadro estrutural, defendemos um plano emergencial para acabar com a fome e garantir emprego, moradia e renda digna.",
-      "pagina": 4
-     },
-     {
-      "titulo": "Plano de obras públicas",
-      "trecho": "Propomos um amplo plano de obras públicas, financiado por taxação sobre as grandes fortunas, que construa creches, escolas, clínicas da família, hospitais, restaurantes populares, moradia popular capaz de zerar o déficit habitacional de quase meio milhão de unidades, saneamento básico, equipamentos culturais e esportivos nos subúrbios e favelas, além de casas-abrigo para mulheres e pessoas LGBTI vítimas de violência.",
-      "pagina": 4
-     }
-    ],
-    "educacao": [
-     {
-      "titulo": "Investimento mínimo de 25% em educação",
-      "trecho": "Defendemos o investimento mínimo constitucional de 25% do orçamento em educação, patamar hoje sistematicamente descumprido, com a revogação de mecanismos que limitam gastos sociais.",
-      "pagina": 5
-     },
-     {
-      "titulo": "Recursos para UERJ, UENF e FAETEC",
-      "trecho": "Diante da estagnação orçamentária de mais de uma década no ensino superior estadual, defendemos aumento substancial e imediato de recursos para UERJ, UENF e FAETEC.",
-      "pagina": 5
-     }
-    ],
-    "ambiente_saneamento": [
-     {
-      "titulo": "Universalização do saneamento básico",
-      "trecho": "Defendemos a universalização do saneamento básico, com fim do despejo de esgoto in natura na Baía de Guanabara, onde apenas cerca de 24% do esgoto coletado é efetivamente tratado, e nos demais rios do estado, e obrigatoriedade de tratamento de efluentes e emissões pelas grandes empresas, com estatização daquelas que descumprirem normas ambientais.",
-      "pagina": 6
-     },
-     {
-      "titulo": "Diagnóstico sobre a privatização da CEDAE",
-      "trecho": "O caso mais recente e emblemático é o da CEDAE, privatizada em 2021 por 22,7 bilhões de reais, mesmo nunca tendo apresentado problemas financeiros: a empresa sempre gerou lucro líquido e dividendos ao Estado, e seu lucro só caiu em 2020, quando o governo já se preparava para a venda.",
-      "pagina": 2
-     }
-    ],
-    "interior": null,
-    "servidor": [
-     {
-      "titulo": "Dívida pública e salários dos servidores",
-      "trecho": "Defendemos a suspensão e auditoria da dívida pública estadual, hoje próxima de 200% da receita corrente líquida, e a inversão da lógica orçamentária, priorizando saúde, educação e salários dos servidores públicos, com revisão da alíquota previdenciária cobrada dos trabalhadores do estado.",
-      "pagina": 7
-     }
-    ]
-   }
-  },
-  "luan": {
-   "nome": "Luan Monteiro",
-   "partido": "PCO",
-   "numero": 29,
-   "fonte_url": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/190017113692",
-   "pagina_candidato": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/SUDESTE/RJ/20322002026/190002552513/2026/RJ",
-   "temas": {
-    "seguranca": [
-     {
-      "titulo": "Dissolução da polícia militar",
-      "trecho": "Dissolução da polícia militar e de todo o aparato repressivo",
-      "pagina": 5
-     },
-     {
-      "titulo": "Direito de autodefesa",
-      "trecho": "Direito de autodefesa dos trabalhadores da cidade e do campo",
-      "pagina": 5
-     }
-    ],
-    "saude": [
-     {
-      "titulo": "Hospitais e postos de saúde",
-      "trecho": "Plano de emergência para construção de hospitais e postos de saúde em todo o País",
-      "pagina": 5
-     },
-     {
-      "titulo": "Programa Mais Médicos",
-      "trecho": "Volta do programa Mais Médicos e validação imediata de todos os diplomas de médicos brasileiros e estrangeiros residentes no País",
-      "pagina": 5
-     }
-    ],
-    "transporte": [
-     {
-      "titulo": "Passe livre para desempregados",
-      "trecho": "Passe livre nos transportes para desempregados e trabalhadores da economia informal.",
-      "pagina": 2
-     }
-    ],
-    "economia": [
-     {
-      "titulo": "Redução da jornada",
-      "trecho": "Redução da jornada de trabalho para o máximo de 7 horas por dia, 5 dias por semana (35 horas semanais): trabalhar menos para que todos trabalhem",
-      "pagina": 2
-     },
-     {
-      "titulo": "Proibição das demissões",
-      "trecho": "Proibição das demissões; ocupação e controle dos trabalhadores sobre as empresas que demitam ou ameacem fechar",
-      "pagina": 2
-     }
-    ],
-    "educacao": [
-     {
-      "titulo": "Verbas para o ensino público",
-      "trecho": "Mais verbas para a educação; verbas públicas somente para o ensino público",
-      "pagina": 5
-     },
-     {
-      "titulo": "Piso salarial dos professores",
-      "trecho": "Piso salarial nacional dos professores de, pelo menos, R$8,5 mil",
-      "pagina": 5
-     }
-    ],
-    "ambiente_saneamento": null,
-    "interior": null,
-    "servidor": [
-     {
-      "titulo": "Estabilidade dos servidores públicos",
-      "trecho": "Não ao fim da estabilidade dos servidores públicos",
-      "pagina": 4
-     },
-     {
-      "titulo": "Concursos públicos periódicos",
-      "trecho": "Pela realização de concursos públicos periódicos para repor o quadro de servidores.",
-      "pagina": 4
-     }
-    ]
-   }
+  "candidatos": {
+    "paes": {
+      "nome": "Eduardo Paes",
+      "partido": "PSD",
+      "numero": 55,
+      "fonte_url": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/190017138970",
+      "pagina_candidato": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/SUDESTE/RJ/20322002026/190002543380/2026/RJ",
+      "temas": {
+        "seguranca": [
+          {
+            "titulo": "Redução da violência e novo patrulhamento",
+            "trecho": "Reduzir a violência no estado, sobretudo os assaltos, tiroteios e feminicídios, de forma significativa já no primeiro ano de mandato, por meio da implantação de um novo modelo de patrulhamento territorial, do treinamento dos policiais, do fortalecimento das patrulhas Maria da Penha e do aumento do efetivo dedicado às operações de vigilância e policiamento ostensivo conforme os indicadores criminais em cada município do estado.",
+            "pagina": 6
+          },
+          {
+            "titulo": "Escolha técnica de comandantes e delegados",
+            "trecho": "Eliminar imediatamente as indicações de políticos no processo de escolha dos comandantes dos batalhões da Polícia Militar e dos delegados da Polícia Civil, que será estritamente técnico.",
+            "pagina": 6
+          }
+        ],
+        "saude": [
+          {
+            "titulo": "Recuperação de hospitais e UPAs estaduais",
+            "trecho": "Recuperar os serviços públicos de saúde do estado, colocando os hospitais e as UPAs estaduais para funcionarem com mais eficiência, agilidade e empatia com a população.",
+            "pagina": 6
+          },
+          {
+            "titulo": "Médicos, especialistas e remédios",
+            "trecho": "Contratar mais médicos e especialistas e oferecer um atendimento humanizado para as pessoas, além de assegurar o fornecimento e distribuição de remédios em todo o estado.",
+            "pagina": 6
+          }
+        ],
+        "transporte": [
+          {
+            "titulo": "BRT e ônibus intermunicipais",
+            "trecho": "Investir na melhoria do transporte metropolitano e intermunicipal, expandindo o BRT para mais cidades, além de garantir mais qualidade no serviço e transparência no custo das passagens dos ônibus intermunicipais.",
+            "pagina": 7
+          },
+          {
+            "titulo": "Linha 3 do metrô",
+            "trecho": "Iniciar as obras da Linha 3 do metrô para Niterói, São Gonçalo e Itaboraí até o fim do mandato.",
+            "pagina": 7
+          }
+        ],
+        "economia": [
+          {
+            "titulo": "Atração de empresas e investimentos",
+            "trecho": "Fazer o estado voltar a atrair empresas e investimentos, gerando emprego e renda em todas as regiões de acordo com as suas vocações, sobretudo nos setores de petróleo e gás, turismo, indústria naval, agronegócio e cultura & entretenimento.",
+            "pagina": 7
+          }
+        ],
+        "educacao": [
+          {
+            "titulo": "Ensino médio profissionalizante em tempo integral",
+            "trecho": "Expandir o ensino médio profissionalizante em tempo integral em todo o estado e de acordo com as vocações econômicas de cada região, garantindo assim mais oportunidades de trabalho e acesso ao primeiro emprego para os nossos jovens",
+            "pagina": 6
+          }
+        ],
+        "ambiente_saneamento": [
+          {
+            "titulo": "Obras contra enchentes e deslizamentos",
+            "trecho": "Implantar um grande plano de obras para combater as enchentes e prevenir deslizamentos em todo o estado, com especial atenção à Região Serrana, Costa Verde e Baixada Fluminense.",
+            "pagina": 7
+          }
+        ],
+        "interior": [
+          {
+            "titulo": "Parceria com os prefeitos dos 92 municípios",
+            "trecho": "Ser o principal parceiro de todos os 92 prefeitos do nosso estado na busca pelo desenvolvimento de seus municípios de acordo com suas necessidades e vocações - sem qualquer distinção partidária, política ou ideológica.",
+            "pagina": 5
+          },
+          {
+            "titulo": "Saúde em regiões distantes da capital",
+            "trecho": "Ampliar a rede e o atendimento nas regiões distantes da capital e garantir os repasses para fortalecer a atenção primária da saúde em todos os municípios.",
+            "pagina": 6
+          },
+          {
+            "titulo": "Estradas do interior",
+            "trecho": "Recuperar as estradas do interior com obras de recapeamento, restauração e módulos de vigilância, atuando nos 32 mil quilômetros por onde passa tudo que é consumido e produzido no nosso estado.",
+            "pagina": 7
+          }
+        ],
+        "servidor": null
+      }
+    },
+    "siri": {
+      "nome": "William Siri",
+      "partido": "PSOL",
+      "numero": 50,
+      "fonte_url": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/190016871149",
+      "pagina_candidato": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/SUDESTE/RJ/20322002026/190002536162/2026/RJ",
+      "temas": {
+        "seguranca": [
+          {
+            "titulo": "Novo modelo de segurança pública",
+            "trecho": "Implementar um novo modelo de segurança pública, com o foco na proteção da vida, promoção da cidadania, na garantia de direitos e na defesa das liberdades;",
+            "pagina": 37
+          },
+          {
+            "titulo": "Política alinhada à ADPF das Favelas",
+            "trecho": "Implementar uma política de segurança pública alinhada às determinações da ADPF das Favelas, priorizando inteligência e investigação, estabelecendo protocolos para operações policiais, garantindo transparência, controle da atividade policial, redução da letalidade e proteção da vida nos territórios;",
+            "pagina": 37
+          }
+        ],
+        "saude": [
+          {
+            "titulo": "Mínimo constitucional de 12% para a saúde",
+            "trecho": "Ampliar os recursos destinados à saúde com a aplicação do mínimo constitucional de 12% das verbas estaduais, observando criteriosamente a sétima diretriz da Resolução 322 do Conselho Nacional de Saúde que descaracteriza alguns outros investimentos como ações deste financiamento, bem como a legislação pertinente em vigor;",
+            "pagina": 93
+          },
+          {
+            "titulo": "Transição para gestão pública direta",
+            "trecho": "Implementar um plano de transição do sistema atual, que prioriza a gestão privada, para um sistema de gestão pública e direta com a realização de concursos públicos na área da saúde, evitando a desorganização do serviço e a desassistência, garantindo o progressivo encerramento de todas as formas de privatização e terceirização da Saúde;",
+            "pagina": 94
+          }
+        ],
+        "transporte": [
+          {
+            "titulo": "Política de mobilidade sustentável",
+            "trecho": "Implementar uma política de mobilidade sustentável pautada na estruturação de uma rede integrada de acessibilidade e mobilidade para o estado, priorizando o transporte público, em especial de alta capacidade sobre trilhos;",
+            "pagina": 82
+          },
+          {
+            "titulo": "Tarifa Zero",
+            "trecho": "Planejar etapas de redução progressiva e acelerada do preço da tarifa até atingir a Tarifa Zero em todos os tipos de transporte público estadual, em diálogo com o governo federal, com o objetivo de atenuar o aumento de demanda decorrente da implementação do serviço gratuito e permitir que o poder público tenha tempo de resposta para fazer as adequações necessárias à melhor operação do serviço;",
+            "pagina": 86
+          }
+        ],
+        "economia": [
+          {
+            "titulo": "Plano Estadual de Desenvolvimento Econômico e Reindustrialização",
+            "trecho": "Instituir um Plano Estadual de Desenvolvimento Econômico e Reindustrialização, com metas de curto, médio e longo prazo para diversificar a estrutura produtiva, gerar empregos formais e bem remunerados, reduzir as desigualdades regionais e superar a dependência excessiva das receitas provenientes da exploração de petróleo e gás.",
+            "pagina": 18
+          },
+          {
+            "titulo": "Postos de trabalho formal em cada região",
+            "trecho": "Priorizar medidas de incentivo fiscal e garantir infraestrutura para a criação de postos de trabalho formal em cada região do estado (Metropolitana, Noroeste Fluminense, Norte Fluminense, Baixadas Litorâneas, Serrana, Centro-Sul Fluminense, Médio Paraíba e Costa Verde), aproximando o emprego de quem precisa e desconcentrando as oportunidades do estado;",
+            "pagina": 32
+          }
+        ],
+        "educacao": [
+          {
+            "titulo": "Gestão democrática da rede estadual",
+            "trecho": "Garantir processos de gestão democrática em toda a rede estadual de ensino, com a eleição de diretores nas escolas e construção/valorização de conselhos gestores de caráter deliberativo nas comunidades pedagógicas;",
+            "pagina": 105
+          },
+          {
+            "titulo": "Alfabetização até 8 anos de idade",
+            "trecho": "Garantir o direito à alfabetização para todas as crianças até 8 anos de idade;",
+            "pagina": 105
+          }
+        ],
+        "ambiente_saneamento": [
+          {
+            "titulo": "Reestatização da CEDAE",
+            "trecho": "Iniciar o processo de retomada pública e reestatização da CEDAE, fortalecendo a Agenersa e os órgãos competentes para realizar uma auditoria rigorosa dos contratos de concessão, apurar irregularidades, cobranças abusivas, descumprimento de metas e falhas na prestação dos serviços.",
+            "pagina": 64
+          },
+          {
+            "titulo": "Segurança hídrica",
+            "trecho": "Garantir a segurança hídrica do estado, protegendo mananciais estratégicos, ampliando a reservação de água e fortalecendo os sistemas de abastecimento diante das mudanças climáticas.",
+            "pagina": 64
+          }
+        ],
+        "interior": [
+          {
+            "titulo": "Regionalização das ações da Secretaria de Saúde",
+            "trecho": "Regionalizar as ações da Secretaria de Estado de Saúde, em articulação com as prefeituras do estado, garantindo o fortalecimento das estruturas existentes em cada região (Metropolitana, Noroeste Fluminense, Norte Fluminense, Baixadas Litorâneas, Serrana, Centro-Sul Fluminense, Médio Paraíba e Costa Verde) e dando prioridade para os territórios mais vulneráveis e com menos recursos;",
+            "pagina": 93
+          },
+          {
+            "titulo": "Hospitais regionais estaduais",
+            "trecho": "Implementar pelo menos dois novos hospitais regionais estaduais: Um no Noroeste Fluminense e outro na Baixada Fluminense, na Rodovia Rio-Santos",
+            "pagina": 93
+          }
+        ],
+        "servidor": [
+          {
+            "titulo": "Valorização do servidor e data-base",
+            "trecho": "Instituir uma política permanente de valorização dos servidores públicos estaduais, assegurando reajuste salarial anual, em mês fixo definido como data-base do funcionalismo, com recomposição das perdas inflacionárias acumuladas pelo Índice Nacional de Preços ao Consumidor Amplo (IPCA).",
+            "pagina": 7
+          },
+          {
+            "titulo": "Calendário de concursos públicos",
+            "trecho": "Estabelecer um calendário progressivo de realização de concursos públicos para a recomposição dos quadros de servidores e combater o déficit em todos os órgãos estaduais, considerando como marco a implementação do PROPAG;",
+            "pagina": 7
+          }
+        ]
+      }
+    },
+    "marinho": {
+      "nome": "André Marinho",
+      "partido": "NOVO",
+      "numero": 30,
+      "fonte_url": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/190016887030",
+      "pagina_candidato": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/SUDESTE/RJ/20322002026/190002537524/2026/RJ",
+      "temas": {
+        "seguranca": [
+          {
+            "titulo": "Plano em cinco frentes",
+            "trecho": "O Plano Estadual de Segurança Pública responde com um cerco em cinco frentes simultâneas. Cada uma fecha uma saída do crime. Juntas, sufocam a engrenagem inteira.",
+            "pagina": 131
+          },
+          {
+            "titulo": "Escudo Rio",
+            "trecho": "O Escudo Rio existe para fechar essa porta de entrada antes que a carga chegue ao território — e não correr atrás depois que o estrago já está feito.",
+            "pagina": 132
+          }
+        ],
+        "saude": [
+          {
+            "titulo": "Rio Sem Fila",
+            "trecho": "Zerar as principais filas de exames e cirurgias eletivas do SUS estadual e qualificar a rede de urgência, emergência e alta complexidade, levando o serviço especializado para onde a população está — com prioridade para o interior e a Baixada Fluminense, onde a espera mata mais.",
+            "pagina": 37
+          }
+        ],
+        "transporte": [
+          {
+            "titulo": "Recuperação da malha ferroviária e do BRT",
+            "trecho": "Recuperar a malha ferroviária e o BRT e expandir a capacidade metropolitana com o Monotrilho Suspenso ao longo do Arco e a integração ao Metrô, reduzindo de forma medida o tempo médio de deslocamento e devolvendo tempo de vida ao trabalhador.",
+            "pagina": 20
+          },
+          {
+            "titulo": "Bilhete Único Metropolitano",
+            "trecho": "Bilhete Único Metropolitano, aplicativo estadual de informação em tempo real e Passe Livre para jovens em formação técnica.",
+            "pagina": 20
+          }
+        ],
+        "economia": [
+          {
+            "titulo": "Diversificação econômica",
+            "trecho": "Diversificar a matriz econômica fluminense em setores portadores de futuro, reduzindo a dependência do petróleo e transformando a competência estadual em óleo e gás em liderança nas energias e nas indústrias do século XXI, com geração de emprego qualificado em todas as regiões.",
+            "pagina": 52
+          },
+          {
+            "titulo": "Plataforma Trabalho Já Rio",
+            "trecho": "Criar o primeiro sistema estadual de match em tempo real entre vaga e trabalhador, com inteligência artificial preditiva e busca ativa estruturada, encurtando radicalmente o tempo entre a procura e a colocação e conectando qualificação à vaga concreta.",
+            "pagina": 54
+          }
+        ],
+        "educacao": [
+          {
+            "titulo": "Programa Aprendiz Rio",
+            "trecho": "Programa Aprendiz Rio: aprendizagem dual para jovens de 15 a 18 anos, com 3 dias na escola e 2 dias na empresa, salário-aprendiz de R$ 800 a R$ 1.200 cofinanciado (Estado 30%, empresa 70%), contrato CLT, vale-transporte e mentor designado.",
+            "pagina": 45
+          },
+          {
+            "titulo": "Centros técnicos estaduais",
+            "trecho": "Ampliação e modernização da rede de centros técnicos estaduais (Faetec e novas unidades), com laboratórios alinhados às tecnologias das cadeias-alvo.",
+            "pagina": 46
+          }
+        ],
+        "ambiente_saneamento": [
+          {
+            "titulo": "Despoluição da Baía de Guanabara",
+            "trecho": "Despoluição da Baía de Guanabara com emissário submarino, ecobarreiras em rios e canais, desassoreamento de calhas e tecnologias inovadoras de recuperação aquática.",
+            "pagina": 94
+          },
+          {
+            "titulo": "Metas de coleta e tratamento de esgoto",
+            "trecho": "Ampliação e fiscalização das metas de coleta e tratamento de esgoto na bacia, em articulação com a concessionária e as agências reguladoras.",
+            "pagina": 95
+          }
+        ],
+        "interior": [
+          {
+            "titulo": "Pacto Rio 92",
+            "trecho": "Levar a presença do Estado, com serviços integrados e capacidade técnica de gestão, a todos os 92 municípios, substituindo a lógica do repasse sem contrapartida por um pacto de resultado com metas pactuadas, apoio técnico e prêmio por desempenho, de modo a reduzir a desigualdade territorial e qualificar o gasto público municipal.",
+            "pagina": 74
+          },
+          {
+            "titulo": "Rede de oncologia no interior",
+            "trecho": "Expansão da rede de oncologia e diagnóstico no interior, com novos institutos e polos regionais — a exemplo dos Institutos Estaduais do Câncer previstos para Nova Iguaçu (86 leitos, 20 de UTI) e Nova Friburgo (SES-RJ, 2023) — e do polo Norte/Noroeste ancorado em Campos.",
+            "pagina": 38
+          }
+        ],
+        "servidor": null
+      }
+    },
+    "busnello": {
+      "nome": "Coronel Busnello",
+      "partido": "MISSÃO",
+      "numero": 14,
+      "fonte_url": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/190017031845",
+      "pagina_candidato": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/SUDESTE/RJ/20322002026/190002544120/2026/RJ",
+      "temas": {
+        "seguranca": [
+          {
+            "titulo": "Segurança Presente fora da Região Metropolitana",
+            "trecho": "O programa Segurança Presente será expandido para novos corredores comerciais e educacionais fora da Região Metropolitana, com base comunitária fixa por território e patrulhamento a pé como padrão operacional, não como exceção.",
+            "pagina": 13
+          },
+          {
+            "titulo": "Programa de Retomada de Territórios",
+            "trecho": "A retomada seguirá três fases — asfixia financeira e de inteligência; intervenção judicial e operacional; e consolidação da presença estatal —, com pilotos na Baixada Fluminense, na Capital e em São Gonçalo, e articulação direta com o programa de urbanização integrada e regularização fundiária tratado em capítulo próprio deste plano de governo.",
+            "pagina": 13
+          }
+        ],
+        "saude": [
+          {
+            "titulo": "Acesso no interior e critério dos repasses",
+            "trecho": "O interior fluminense receberá padrão de acesso equivalente ao da capital em leitos críticos, cobertura de urgência e especialistas, e os repasses estaduais aos municípios seguirão critério técnico e público, e não negociação política caso a caso.",
+            "pagina": 17
+          },
+          {
+            "titulo": "Cofinanciamento de equipes de saúde da família",
+            "trecho": "O Governo do Estado ampliará o cofinanciamento estadual de equipes de saúde da família para viabilizar 1.200 novas equipes nos municípios com cobertura abaixo de 60%, com prioridade para a Baixada Fluminense e a Zona Oeste da capital, respeitando a autonomia municipal na contratação e com adscrição nominal obrigatória de cada cidadão a um médico responsável por seu cuidado.",
+            "pagina": 18
+          }
+        ],
+        "transporte": [
+          {
+            "titulo": "Integração de bilhetagem e horários",
+            "trecho": "O Governo do Estado promoverá a integração da bilhetagem e a harmonização de horários entre os diferentes sistemas de transporte da Região Metropolitana, em cooperação com os municípios envolvidos, por meio de convênio que estabeleça regras únicas de transferência tarifária e sincronização dos quadros de horários entre os modais estaduais e municipais, com prioridade para os terminais de maior fluxo de integração intermodal.",
+            "pagina": 31
+          },
+          {
+            "titulo": "Manutenção de rodovias estaduais",
+            "trecho": "O Governo do Estado recuperará e ampliará a capacidade das principais ligações estruturantes das rodovias estaduais, com prioridade para a RJ-106, e instituirá programa permanente de obras públicas, técnico e com reserva orçamentária própria, para manutenção preventiva de rodovias, pontes e demais equipamentos de transporte público estaduais, substituindo a lógica reativa de intervenção emergencial por planejamento plurianual auditável.",
+            "pagina": 30
+          }
+        ],
+        "economia": [
+          {
+            "titulo": "Reindustrialização do Leste Fluminense",
+            "trecho": "O Governo do Estado indicará Secretário de Desenvolvimento dedicado à industrialização, consolidará o levantamento de todos os incentivos vigentes em um Plano Estadual de Reindustrialização único, e constituirá zona industrial no Leste Fluminense, na região de Itaboraí e entorno — beneficiada pela futura Ferrovia EF-118 e pela proximidade com a BR-101 —, em cooperação com os municípios para redução de ISS e IPTU, estruturando novo eixo industrial em óleo e gás, construção civil, indústria de transformação, processamento de pescados e indústria automotiva de motocicletas.",
+            "pagina": 34
+          }
+        ],
+        "educacao": [
+          {
+            "titulo": "Piso do magistério e plano de carreira",
+            "trecho": "O Governo do Estado adequará os vencimentos de todas as categorias ao piso nacional do magistério, em cronograma plurianual compatível com a Lei de Responsabilidade Fiscal, e enviará à Assembleia Legislativa novo Plano de Cargos, Carreiras e Salários com progressão vinculada a mérito e formação continuada.",
+            "pagina": 23
+          }
+        ],
+        "ambiente_saneamento": [
+          {
+            "titulo": "Baía Viva RJ",
+            "trecho": "O Governo do Estado instituirá o Baía Viva RJ, com estações de monitoramento científico e rastreamento por GPS de fauna marinha em parceria com a UFRJ e a UFF, unidade marítima de fiscalização com drones e vigilância por inteligência artificial em articulação com o INEA e as forças de segurança, e programas educacionais e de turismo sustentável — com meta de melhorar em 40% a qualidade da água e gerar 25 mil empregos verdes até 2030.",
+            "pagina": 43
+          },
+          {
+            "titulo": "Conselho de Vigilância da Água e Saneamento",
+            "trecho": "O Governo do Estado criará o Conselho Estadual de Vigilância da Água e Saneamento (CEVAS-RJ), com participação de universidades, sociedade civil, Ministério Público e escolas públicas como polos de monitoramento cidadão, competência para requisitar auditorias e obrigatoriedade de rampas públicas de acesso a rios de grande fluxo; e instituirá a Operação Água Segura, protocolo permanente entre a Secretaria de Segurança Pública e as concessionárias de saneamento para mapear as zonas onde obras estão paralisadas por ação do crime organizado e garantir, com planejamento integrado, a retomada das frentes de obra.",
+            "pagina": 44
+          }
+        ],
+        "interior": [
+          {
+            "titulo": "Apoio técnico às prefeituras e vocações regionais",
+            "trecho": "Os 92 municípios fluminenses raramente contam com apoio técnico do Estado para o desenvolvimento econômico local, e a aplicação municipal dos princípios da Lei federal da Liberdade Econômica (Lei nº 13.874/2019) é desigual, gerando insegurança jurídica para pequenos empreendedores fora da Região Metropolitana.",
+            "pagina": 35
+          },
+          {
+            "titulo": "UTI em cada região",
+            "trecho": "O Governo do Estado equipará hospitais já existentes — sem construção do zero — com UTI adulto e UTI neonatal nas quatro regiões de maior déficit, priorizando Noroeste, Serrana, Baixada Litorânea e Médio Paraíba, com integração obrigatória à Central de Vagas RJ desde o primeiro dia de operação e suporte de tele-UTI para atrair e reter intensivistas.",
+            "pagina": 19
+          }
+        ],
+        "servidor": [
+          {
+            "titulo": "Plano de cargos das carreiras de segurança",
+            "trecho": "Um novo Plano de Cargos, Carreiras e Salários será enviado à Assembleia Legislativa, com progressão por mérito e adicional de serviço equalizado entre PM, PC, Bombeiro e Peritos.",
+            "pagina": 11
+          }
+        ]
+      }
+    },
+    "juliete": {
+      "nome": "Juliete Pantoja",
+      "partido": "UP",
+      "numero": 80,
+      "fonte_url": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/190017059799",
+      "pagina_candidato": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/SUDESTE/RJ/20322002026/190002547272/2026/RJ",
+      "temas": {
+        "seguranca": [
+          {
+            "titulo": "Operações policiais nas comunidades",
+            "trecho": "Acabar com as operações militares e policiais violentas nas comunidades, substituindo-as por ações de inteligência em todo o estado, com forte fiscalização e controle das armas e munições em controle do governo estadual;",
+            "pagina": 6
+          },
+          {
+            "titulo": "Enfrentamento às milícias",
+            "trecho": "Enfrentamento direto e diário às milícias. Afastamento imediato de qualquer servidor da segurança que tenha suspeita de ligação com milícias;",
+            "pagina": 7
+          }
+        ],
+        "saude": [
+          {
+            "titulo": "Administração direta da saúde pública",
+            "trecho": "Retomada da administração direta da saúde pública pelo Estado, encerrando e auditando os contratos com as OS (Organizações Sociais) e punindo possíveis casos de corrupção;",
+            "pagina": 7
+          },
+          {
+            "titulo": "Atenção primária e Saúde da Família",
+            "trecho": "Garantia de atendimento primário e Saúde da Família em todas as cidades;",
+            "pagina": 8
+          }
+        ],
+        "transporte": [
+          {
+            "titulo": "Controle popular dos trens e metrôs e tarifa",
+            "trecho": "Administração Estatal com controle popular dos trens e metrôs. Redução de 50% das passagens em todos os transportes em janeiro de 2027 e implementação da Política de Bilhete Único Intermodal e Intermunicipal;",
+            "pagina": 11
+          },
+          {
+            "titulo": "Metrô na Baixada, Niterói e São Gonçalo",
+            "trecho": "Garantir a chegada do metrô à Baixada Fluminense, Niterói e São Gonçalo. Diminuição nos intervalos de circulação dos trens urbanos;",
+            "pagina": 11
+          }
+        ],
+        "economia": [
+          {
+            "titulo": "Frentes emergenciais de trabalho",
+            "trecho": "Criação de frentes emergenciais de trabalho para acabar com o desemprego e ampliar as obras públicas de primeira necessidade para a população, como saneamento e urbanização;",
+            "pagina": 5
+          },
+          {
+            "titulo": "Banco Estadual",
+            "trecho": "Criação de um Banco Estadual para fortalecer a capacidade de investimento público em infraestrutura;",
+            "pagina": 5
+          }
+        ],
+        "educacao": [
+          {
+            "titulo": "Ensino integral na rede estadual",
+            "trecho": "Ampliar gradualmente o Ensino Integral para 100% das escolas da rede pública estadual até 2030;",
+            "pagina": 9
+          },
+          {
+            "titulo": "Erradicação do analfabetismo",
+            "trecho": "Erradicar o analfabetismo completo e funcional em um ano;",
+            "pagina": 8
+          }
+        ],
+        "ambiente_saneamento": [
+          {
+            "titulo": "Anulação da privatização da Cedae",
+            "trecho": "Auditoria e anulação da privatização da Cedae e a reestatização da energia elétrica;",
+            "pagina": 5
+          },
+          {
+            "titulo": "Universalização do saneamento básico",
+            "trecho": "Universalização do saneamento básico em todo o estado para diminuir os índices de doenças evitáveis, que ainda se proliferam devido à falta de tratamento de água e esgoto;",
+            "pagina": 8
+          }
+        ],
+        "interior": [
+          {
+            "titulo": "Campi universitários no interior",
+            "trecho": "Ampliar e interiorizar as universidades públicas estaduais com a instalação de campi em municípios no interior do estado do Rio de Janeiro, democratizando e levando ensino, pesquisa e extensão para toda a população;",
+            "pagina": 9
+          },
+          {
+            "titulo": "Saúde da Família em todas as cidades",
+            "trecho": "Garantia de atendimento primário e Saúde da Família em todas as cidades;",
+            "pagina": 8
+          }
+        ],
+        "servidor": [
+          {
+            "titulo": "Valorização profissional dos servidores da saúde",
+            "trecho": "Valorização profissional: garantir aumentos anuais a todos os servidores da saúde, plano de cargos e carreiras para os servidores, fim dos contratos terceirizados para atividades-meio, com contratação direta também de pessoal para áreas de limpeza, segurança, maqueiros etc.",
+            "pagina": 8
+          }
+        ]
+      }
+    },
+    "cyro": {
+      "nome": "Cyro Garcia",
+      "partido": "PSTU",
+      "numero": 16,
+      "fonte_url": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/190016929078",
+      "pagina_candidato": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/SUDESTE/RJ/20322002026/190002540198/2026/RJ",
+      "temas": {
+        "seguranca": [
+          {
+            "titulo": "Posição sobre repressão policial",
+            "trecho": "Rejeitamos a ideia de que o problema da violência se resolve com mais repressão policial.",
+            "pagina": 5
+          },
+          {
+            "titulo": "Desmilitarização da segurança pública",
+            "trecho": "Defendemos a desmilitarização da segurança pública e da Polícia Militar, com constituição de uma polícia civil única, democracia interna e direito de organização dos policiais de base.",
+            "pagina": 6
+          }
+        ],
+        "saude": [
+          {
+            "titulo": "Fim da gestão por Organizações Sociais",
+            "trecho": "Defendemos o fim do modelo de gestão por Organizações Sociais e qualquer forma de privatização da saúde, modelo que já custou bilhões de reais em recursos públicos sem garantir qualidade de atendimento.",
+            "pagina": 5
+          },
+          {
+            "titulo": "Concursos públicos e reabertura de vagas",
+            "trecho": "Propomos concursos públicos imediatos com plano de cargos e carreira em todos os níveis de atenção, reabertura de vagas fechadas em clínicas da família, UPAs e hospitais, recuperação da rede federal e estadual, e ampliação da vacinação.",
+            "pagina": 5
+          }
+        ],
+        "transporte": [
+          {
+            "titulo": "Reversão das privatizações da Supervia e do MetrôRio",
+            "trecho": "Defendemos a revogação das privatizações da Supervia e do MetrôRio, sem indenização às empresas, com gestão sob controle dos trabalhadores do setor e da população usuária.",
+            "pagina": 4
+          },
+          {
+            "titulo": "Estatização de barcas e ônibus municipais",
+            "trecho": "Defendemos também a estatização dos serviços de barcas e ônibus municipais, com tarifas sociais, passe livre para desempregados e caminho para a tarifa zero.",
+            "pagina": 5
+          }
+        ],
+        "economia": [
+          {
+            "titulo": "Plano emergencial contra a fome",
+            "trecho": "Diante desse quadro estrutural, defendemos um plano emergencial para acabar com a fome e garantir emprego, moradia e renda digna.",
+            "pagina": 4
+          },
+          {
+            "titulo": "Plano de obras públicas",
+            "trecho": "Propomos um amplo plano de obras públicas, financiado por taxação sobre as grandes fortunas, que construa creches, escolas, clínicas da família, hospitais, restaurantes populares, moradia popular capaz de zerar o déficit habitacional de quase meio milhão de unidades, saneamento básico, equipamentos culturais e esportivos nos subúrbios e favelas, além de casas-abrigo para mulheres e pessoas LGBTI vítimas de violência.",
+            "pagina": 4
+          }
+        ],
+        "educacao": [
+          {
+            "titulo": "Investimento mínimo de 25% em educação",
+            "trecho": "Defendemos o investimento mínimo constitucional de 25% do orçamento em educação, patamar hoje sistematicamente descumprido, com a revogação de mecanismos que limitam gastos sociais.",
+            "pagina": 5
+          },
+          {
+            "titulo": "Recursos para UERJ, UENF e FAETEC",
+            "trecho": "Diante da estagnação orçamentária de mais de uma década no ensino superior estadual, defendemos aumento substancial e imediato de recursos para UERJ, UENF e FAETEC.",
+            "pagina": 5
+          }
+        ],
+        "ambiente_saneamento": [
+          {
+            "titulo": "Universalização do saneamento básico",
+            "trecho": "Defendemos a universalização do saneamento básico, com fim do despejo de esgoto in natura na Baía de Guanabara, onde apenas cerca de 24% do esgoto coletado é efetivamente tratado, e nos demais rios do estado, e obrigatoriedade de tratamento de efluentes e emissões pelas grandes empresas, com estatização daquelas que descumprirem normas ambientais.",
+            "pagina": 6
+          },
+          {
+            "titulo": "Diagnóstico sobre a privatização da CEDAE",
+            "trecho": "O caso mais recente e emblemático é o da CEDAE, privatizada em 2021 por 22,7 bilhões de reais, mesmo nunca tendo apresentado problemas financeiros: a empresa sempre gerou lucro líquido e dividendos ao Estado, e seu lucro só caiu em 2020, quando o governo já se preparava para a venda.",
+            "pagina": 2
+          }
+        ],
+        "interior": null,
+        "servidor": [
+          {
+            "titulo": "Dívida pública e salários dos servidores",
+            "trecho": "Defendemos a suspensão e auditoria da dívida pública estadual, hoje próxima de 200% da receita corrente líquida, e a inversão da lógica orçamentária, priorizando saúde, educação e salários dos servidores públicos, com revisão da alíquota previdenciária cobrada dos trabalhadores do estado.",
+            "pagina": 7
+          }
+        ]
+      }
+    },
+    "luan": {
+      "nome": "Luan Monteiro",
+      "partido": "PCO",
+      "numero": 29,
+      "fonte_url": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/190017113692",
+      "pagina_candidato": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/SUDESTE/RJ/20322002026/190002552513/2026/RJ",
+      "temas": {
+        "seguranca": [
+          {
+            "titulo": "Dissolução da polícia militar",
+            "trecho": "Dissolução da polícia militar e de todo o aparato repressivo",
+            "pagina": 5
+          },
+          {
+            "titulo": "Direito de autodefesa",
+            "trecho": "Direito de autodefesa dos trabalhadores da cidade e do campo",
+            "pagina": 5
+          }
+        ],
+        "saude": [
+          {
+            "titulo": "Hospitais e postos de saúde",
+            "trecho": "Plano de emergência para construção de hospitais e postos de saúde em todo o País",
+            "pagina": 5
+          },
+          {
+            "titulo": "Programa Mais Médicos",
+            "trecho": "Volta do programa Mais Médicos e validação imediata de todos os diplomas de médicos brasileiros e estrangeiros residentes no País",
+            "pagina": 5
+          }
+        ],
+        "transporte": [
+          {
+            "titulo": "Passe livre para desempregados",
+            "trecho": "Passe livre nos transportes para desempregados e trabalhadores da economia informal.",
+            "pagina": 2
+          }
+        ],
+        "economia": [
+          {
+            "titulo": "Redução da jornada",
+            "trecho": "Redução da jornada de trabalho para o máximo de 7 horas por dia, 5 dias por semana (35 horas semanais): trabalhar menos para que todos trabalhem",
+            "pagina": 2
+          },
+          {
+            "titulo": "Proibição das demissões",
+            "trecho": "Proibição das demissões; ocupação e controle dos trabalhadores sobre as empresas que demitam ou ameacem fechar",
+            "pagina": 2
+          }
+        ],
+        "educacao": [
+          {
+            "titulo": "Verbas para o ensino público",
+            "trecho": "Mais verbas para a educação; verbas públicas somente para o ensino público",
+            "pagina": 5
+          },
+          {
+            "titulo": "Piso salarial dos professores",
+            "trecho": "Piso salarial nacional dos professores de, pelo menos, R$8,5 mil",
+            "pagina": 5
+          }
+        ],
+        "ambiente_saneamento": null,
+        "interior": null,
+        "servidor": [
+          {
+            "titulo": "Estabilidade dos servidores públicos",
+            "trecho": "Não ao fim da estabilidade dos servidores públicos",
+            "pagina": 4
+          },
+          {
+            "titulo": "Concursos públicos periódicos",
+            "trecho": "Pela realização de concursos públicos periódicos para repor o quadro de servidores.",
+            "pagina": 4
+          }
+        ]
+      }
+    }
   }
- }
 }

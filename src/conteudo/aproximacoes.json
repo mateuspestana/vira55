@@ -1,0 +1,255 @@
+[
+ {
+  "paes": {
+   "tema": "transporte",
+   "i": 0
+  },
+  "cand": "marinho",
+  "tema": "transporte",
+  "i": 0,
+  "rotulo": "Mesmo sentido",
+  "porque": "Também quer recuperar o BRT e ampliar o transporte metropolitano."
+ },
+ {
+  "paes": {
+   "tema": "transporte",
+   "i": 0
+  },
+  "cand": "busnello",
+  "tema": "transporte",
+  "i": 0,
+  "rotulo": "Mesmo sentido",
+  "porque": "Também quer melhorar o transporte metropolitano, integrando bilhetagem e horários."
+ },
+ {
+  "paes": {
+   "tema": "transporte",
+   "i": 0
+  },
+  "cand": "siri",
+  "tema": "transporte",
+  "i": 0,
+  "rotulo": "Mesmo sentido",
+  "porque": "Também prioriza uma rede integrada de transporte público, com foco no que é de alta capacidade."
+ },
+ {
+  "paes": {
+   "tema": "transporte",
+   "i": 1
+  },
+  "cand": "juliete",
+  "tema": "transporte",
+  "i": 1,
+  "rotulo": "Próximo",
+  "porque": "Também quer o metrô chegando a Niterói e São Gonçalo."
+ },
+ {
+  "paes": {
+   "tema": "transporte",
+   "i": 1
+  },
+  "cand": "siri",
+  "tema": "transporte",
+  "i": 0,
+  "rotulo": "Mesmo sentido",
+  "porque": "Também defende ampliar o transporte público de alta capacidade sobre trilhos."
+ },
+ {
+  "paes": {
+   "tema": "seguranca",
+   "i": 0
+  },
+  "cand": "busnello",
+  "tema": "seguranca",
+  "i": 0,
+  "rotulo": "Próximo",
+  "porque": "Também propõe patrulhamento por território, com base comunitária fixa."
+ },
+ {
+  "paes": {
+   "tema": "saude",
+   "i": 0
+  },
+  "cand": "cyro",
+  "tema": "saude",
+  "i": 1,
+  "rotulo": "Próximo",
+  "porque": "Também quer reabrir vagas em UPAs e hospitais e contratar profissionais."
+ },
+ {
+  "paes": {
+   "tema": "saude",
+   "i": 1
+  },
+  "cand": "marinho",
+  "tema": "saude",
+  "i": 0,
+  "rotulo": "Mesmo sentido",
+  "porque": "Também quer ampliar o atendimento especializado e reduzir as filas, com prioridade para o interior e a Baixada."
+ },
+ {
+  "paes": {
+   "tema": "saude",
+   "i": 1
+  },
+  "cand": "cyro",
+  "tema": "saude",
+  "i": 1,
+  "rotulo": "Próximo",
+  "porque": "Também propõe concursos para contratar profissionais da saúde."
+ },
+ {
+  "paes": {
+   "tema": "economia",
+   "i": 0
+  },
+  "cand": "siri",
+  "tema": "economia",
+  "i": 1,
+  "rotulo": "Próximo",
+  "porque": "Também quer criar empregos formais em cada região do estado."
+ },
+ {
+  "paes": {
+   "tema": "economia",
+   "i": 0
+  },
+  "cand": "marinho",
+  "tema": "economia",
+  "i": 0,
+  "rotulo": "Mesmo sentido",
+  "porque": "Também quer diversificar a economia e gerar emprego, incluindo óleo e gás."
+ },
+ {
+  "paes": {
+   "tema": "economia",
+   "i": 0
+  },
+  "cand": "busnello",
+  "tema": "economia",
+  "i": 0,
+  "rotulo": "Mesmo sentido",
+  "porque": "Também propõe atrair indústria e investimentos, com zona industrial no Leste Fluminense."
+ },
+ {
+  "paes": {
+   "tema": "educacao",
+   "i": 0
+  },
+  "cand": "juliete",
+  "tema": "educacao",
+  "i": 0,
+  "rotulo": "Próximo",
+  "porque": "Também quer ampliar o ensino em tempo integral na rede estadual."
+ },
+ {
+  "paes": {
+   "tema": "educacao",
+   "i": 0
+  },
+  "cand": "marinho",
+  "tema": "educacao",
+  "i": 0,
+  "rotulo": "Mesmo sentido",
+  "porque": "Também liga a escola ao primeiro emprego dos jovens, com formação técnica."
+ },
+ {
+  "paes": {
+   "tema": "educacao",
+   "i": 0
+  },
+  "cand": "marinho",
+  "tema": "educacao",
+  "i": 1,
+  "rotulo": "Mesmo sentido",
+  "porque": "Também quer ampliar os centros técnicos estaduais, incluindo a Faetec."
+ },
+ {
+  "paes": {
+   "tema": "interior",
+   "i": 0
+  },
+  "cand": "marinho",
+  "tema": "interior",
+  "i": 0,
+  "rotulo": "Próximo",
+  "porque": "Também quer levar o Estado a todos os 92 municípios, com apoio técnico às prefeituras."
+ },
+ {
+  "paes": {
+   "tema": "interior",
+   "i": 0
+  },
+  "cand": "busnello",
+  "tema": "interior",
+  "i": 0,
+  "rotulo": "Próximo",
+  "porque": "Também propõe apoio técnico do Estado às prefeituras e atenção às vocações de cada região."
+ },
+ {
+  "paes": {
+   "tema": "interior",
+   "i": 1
+  },
+  "cand": "juliete",
+  "tema": "saude",
+  "i": 1,
+  "rotulo": "Próximo",
+  "porque": "Também quer atenção primária e Saúde da Família em todas as cidades."
+ },
+ {
+  "paes": {
+   "tema": "interior",
+   "i": 1
+  },
+  "cand": "busnello",
+  "tema": "saude",
+  "i": 1,
+  "rotulo": "Próximo",
+  "porque": "Também quer mais equipes de saúde da família nos municípios com menos cobertura."
+ },
+ {
+  "paes": {
+   "tema": "interior",
+   "i": 1
+  },
+  "cand": "busnello",
+  "tema": "interior",
+  "i": 1,
+  "rotulo": "Mesmo sentido",
+  "porque": "Também quer levar leitos de UTI às regiões com maior déficit."
+ },
+ {
+  "paes": {
+   "tema": "interior",
+   "i": 1
+  },
+  "cand": "siri",
+  "tema": "interior",
+  "i": 0,
+  "rotulo": "Mesmo sentido",
+  "porque": "Também quer levar as ações da saúde para cada região do estado."
+ },
+ {
+  "paes": {
+   "tema": "interior",
+   "i": 1
+  },
+  "cand": "marinho",
+  "tema": "interior",
+  "i": 1,
+  "rotulo": "Mesmo sentido",
+  "porque": "Também quer levar serviços de saúde, como a oncologia, ao interior."
+ },
+ {
+  "paes": {
+   "tema": "interior",
+   "i": 2
+  },
+  "cand": "busnello",
+  "tema": "transporte",
+  "i": 1,
+  "rotulo": "Próximo",
+  "porque": "Também propõe recuperar as rodovias estaduais."
+ }
+]

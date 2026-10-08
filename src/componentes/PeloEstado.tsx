@@ -13,11 +13,13 @@ export default function PeloEstado() {
   const [todos, setTodos] = useState(false);
 
   const total = useMemo(() => {
-    const t = { aptos: 0, abst: 0, bn: 0 };
+    const t = { aptos: 0, abst: 0, bn: 0, paes: 0, validos: 0 };
     for (const m of dados.municipios) {
       t.aptos += m.aptos;
       t.abst += m.abst;
-      t.bn += m.brancos + m.nulos;
+      t.bn += m.bn;
+      t.paes += m.paes;
+      t.validos += m.paes + m.ruas + m.outros;
     }
     return t;
   }, []);
@@ -28,7 +30,7 @@ export default function PeloEstado() {
     const q = busca.trim().toLocaleLowerCase("pt-BR");
     return dados.municipios
       .filter((m) => (regiao === "Todas" || m.r === regiao) && (!q || m.n.toLocaleLowerCase("pt-BR").includes(q)))
-      .sort((a, b) => b.abst - a.abst);
+      .sort((a, b) => b.aptos - a.aptos);
   }, [regiao, busca]);
 
   const visiveis = todos || busca || regiao !== "Todas" ? lista : lista.slice(0, 12);
@@ -57,14 +59,14 @@ export default function PeloEstado() {
             </dd>
           </div>
           <div>
-            <dt>Votaram em branco ou nulo</dt>
+            <dt>Branco e nulo</dt>
             <dd>{nf.format(total.bn)}</dd>
           </div>
           <div>
             <dt>Paes no 1º turno</dt>
             <dd>
-              3.706.984
-              <small>42,76% dos votos válidos para governador</small>
+              {nf.format(total.paes)}
+              <small>{pct(total.paes, total.validos).toFixed(2).replace(".", ",")}% dos votos válidos para governador</small>
             </dd>
           </div>
         </dl>
@@ -78,9 +80,9 @@ export default function PeloEstado() {
         </div>
 
         <div className="legenda" aria-hidden="true">
-          <span><i className="c-lula" />Votou Lula</span>
-          <span><i className="c-flavio" />Votou Flávio Bolsonaro</span>
-          <span><i className="c-outros" />Outros presidenciáveis</span>
+          <span><i className="c-paes" />Paes</span>
+          <span><i className="c-ruas" />Douglas Ruas</span>
+          <span><i className="c-outros" />Outros candidatos</span>
           <span><i className="c-bn" />Branco ou nulo</span>
           <span><i className="c-abst" />Não foi votar</span>
         </div>
@@ -90,15 +92,15 @@ export default function PeloEstado() {
             <div className="linha-mun" role="listitem" key={m.c}>
               <div className="nome">{m.n}<small>{m.r}</small></div>
               <div className="barra-col">
-                <div className="barra" role="img" aria-label={`${m.n}: ${pct(m.lula, m.aptos).toFixed(0)}% votaram Lula, ${pct(m.flavio, m.aptos).toFixed(0)}% Flávio, ${pct(m.abst, m.aptos).toFixed(0)}% não foram votar`}>
-                  <i className="c-lula" style={{ width: `${pct(m.lula, m.aptos)}%` }} />
-                  <i className="c-flavio" style={{ width: `${pct(m.flavio, m.aptos)}%` }} />
+                <div className="barra" role="img" aria-label={`${m.n}: Paes ${pct(m.paes, m.aptos).toFixed(0)}% do eleitorado, Douglas Ruas ${pct(m.ruas, m.aptos).toFixed(0)}%, ${pct(m.abst, m.aptos).toFixed(0)}% não foram votar`}>
+                  <i className="c-paes" style={{ width: `${pct(m.paes, m.aptos)}%` }} />
+                  <i className="c-ruas" style={{ width: `${pct(m.ruas, m.aptos)}%` }} />
                   <i className="c-outros" style={{ width: `${pct(m.outros, m.aptos)}%` }} />
-                  <i className="c-bn" style={{ width: `${pct(m.brancos + m.nulos, m.aptos)}%` }} />
+                  <i className="c-bn" style={{ width: `${pct(m.bn, m.aptos)}%` }} />
                   <i className="c-abst" style={{ width: `${pct(m.abst, m.aptos)}%` }} />
                 </div>
               </div>
-              <div className="abs">{nf.format(m.abst)}<small>não foram votar</small></div>
+              <div className="abs"><span className="v-paes">Paes {nf.format(m.paes)}</span><small>Ruas {nf.format(m.ruas)}</small></div>
             </div>
           ))}
           {visiveis.length === 0 && <div className="linha-mun"><div className="nome">Nenhum município encontrado.</div></div>}
@@ -109,8 +111,8 @@ export default function PeloEstado() {
         )}
 
         <p className="nota-estado">
-          As barras mostram o 1º turno para <b>presidente</b> em cada município, como retrato de onde
-          está o eleitorado. Ordenado por quem não foi votar. Dados dos boletins de urna do TSE.
+          As barras mostram, para cada município, como o eleitorado se dividiu no 1º turno para governador
+          (parte do total de eleitores). Ordenado por número de eleitores. Dados dos boletins de urna do TSE.
         </p>
       </div>
     </section>
